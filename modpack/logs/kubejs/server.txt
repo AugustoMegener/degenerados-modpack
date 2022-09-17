@@ -1,174 +1,178 @@
-[12:51:52] [INFO ] Hello, World! (You will see this line every time server resources reload)
-[12:51:52] [INFO ] Loaded script server_scripts:script.js in 0.006 s
-[12:51:52] [INFO ] Loaded 1/1 KubeJS server scripts in 0.091 s
-[12:51:52] [INFO ] Scripts loaded
-[12:51:52] [INFO ] Scanning recipes...
-[12:52:51] [WARN ] Failed to parse recipe 'minecraft:melon[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe minecraft:melon[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe 'minecraft:golden_hoe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe minecraft:golden_hoe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe 'minecraft:netherite_hoe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe minecraft:netherite_hoe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe 'minecraft:golden_pickaxe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe minecraft:golden_pickaxe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe 'minecraft:rail[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe minecraft:rail[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe 'minecraft:diamond_sword[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe minecraft:diamond_sword[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe 'minecraft:wooden_axe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe minecraft:wooden_axe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe 'minecraft:diamond_axe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe minecraft:diamond_axe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe 'minecraft:torch[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe minecraft:torch[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe 'minecraft:netherite_chestplate[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe minecraft:netherite_chestplate[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe 'minecraft:diamond_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe minecraft:diamond_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe 'minecraft:compass[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:51] [WARN ] Failed to parse recipe minecraft:compass[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:iron_axe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:iron_axe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:flower_pot[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:flower_pot[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:golden_boots[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:golden_boots[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:diamond_shovel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:diamond_shovel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:golden_shovel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:golden_shovel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:diamond_chestplate[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:diamond_chestplate[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:netherite_sword[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:netherite_sword[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:lapis_lazuli[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:lapis_lazuli[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:iron_pickaxe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:iron_pickaxe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:iron_leggings[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:iron_leggings[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:mushroom_stew[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:mushroom_stew[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:iron_chestplate[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:iron_chestplate[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:clock[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:clock[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:diamond_leggings[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:diamond_leggings[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:wooden_shovel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:wooden_shovel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:netherite_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:netherite_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:netherite_leggings[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:netherite_leggings[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:netherite_shovel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:netherite_shovel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:jack_o_lantern[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:jack_o_lantern[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:turtle_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:turtle_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:bone_meal[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:bone_meal[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:diamond_boots[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:diamond_boots[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:pumpkin_pie[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:pumpkin_pie[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:netherite_axe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:netherite_axe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:soul_torch[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:soul_torch[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:iron_sword[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:iron_sword[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:sticky_piston[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:sticky_piston[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:white_wool_from_string[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:white_wool_from_string[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:netherite_boots[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:netherite_boots[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:leather_boots[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:leather_boots[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:iron_shovel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:iron_shovel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:leather_horse_armor[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:leather_horse_armor[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:melon_seeds[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:melon_seeds[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:enchanting_table[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:enchanting_table[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:leather_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:leather_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:tinted_glass[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:tinted_glass[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:iron_hoe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:iron_hoe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:wooden_hoe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:wooden_hoe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:map[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:map[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:crafting_table[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:crafting_table[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:anvil[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:anvil[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:composter[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:composter[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:diamond_pickaxe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:diamond_pickaxe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe 'minecraft:suspicious_stew[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:52] [WARN ] Failed to parse recipe minecraft:suspicious_stew[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:wooden_pickaxe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:wooden_pickaxe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:golden_axe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:golden_axe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:barrel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:barrel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:iron_boots[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:iron_boots[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:golden_chestplate[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:golden_chestplate[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:painting[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:painting[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:bricks[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:bricks[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:diamond_hoe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:diamond_hoe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:leather_chestplate[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:leather_chestplate[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:leather_leggings[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:leather_leggings[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:bowl[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:bowl[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:iron_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:iron_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:golden_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:golden_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:netherite_pickaxe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:netherite_pickaxe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:wooden_sword[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:wooden_sword[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:bucket[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:bucket[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:rabbit_stew_from_brown_mushroom[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:rabbit_stew_from_brown_mushroom[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:flint_and_steel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:flint_and_steel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:golden_sword[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:golden_sword[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:hay_block[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:hay_block[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:rabbit_stew_from_red_mushroom[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:rabbit_stew_from_red_mushroom[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:blaze_rod[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:blaze_rod[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:beetroot_soup[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:beetroot_soup[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:golden_leggings[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:golden_leggings[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:wheat[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:wheat[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe 'minecraft:campfire[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [WARN ] Failed to parse recipe minecraft:campfire[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
-[12:52:53] [INFO ] Found 7137 recipes and 0 failed recipes in 1.884 s
-[12:52:53] [INFO ] Posted recipe events in 4.847 ms
-[12:52:54] [INFO ] Modified & removed recipes in 582.4 ms
-[12:52:54] [INFO ] Added recipes in 582.5 μs
-[12:52:54] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
+[14:57:55] [INFO ] server_scripts:quark.js:8: Quark reloaded!
+[14:57:55] [INFO ] Loaded script server_scripts:quark.js in 0.02 s
+[14:57:55] [INFO ] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
+[14:57:55] [INFO ] Loaded script server_scripts:script.js in 0.001 s
+[14:57:55] [INFO ] Loaded 2/2 KubeJS server scripts in 0.048 s
+[14:57:55] [INFO ] Scripts loaded
+[14:57:55] [INFO ] Scanning recipes...
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:melon[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:melon[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:golden_hoe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:golden_hoe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:netherite_hoe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:netherite_hoe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:golden_pickaxe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:golden_pickaxe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:rail[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:rail[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:diamond_sword[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:diamond_sword[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:wooden_axe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:wooden_axe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:diamond_axe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:diamond_axe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:torch[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:torch[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:netherite_chestplate[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:netherite_chestplate[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:diamond_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:diamond_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:compass[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:compass[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:iron_axe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:iron_axe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:flower_pot[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:flower_pot[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:golden_boots[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:golden_boots[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:diamond_shovel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:diamond_shovel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:golden_shovel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:golden_shovel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:diamond_chestplate[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:diamond_chestplate[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:netherite_sword[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:netherite_sword[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:lapis_lazuli[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:lapis_lazuli[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:iron_pickaxe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:iron_pickaxe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:iron_leggings[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:iron_leggings[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:mushroom_stew[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:mushroom_stew[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:iron_chestplate[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:iron_chestplate[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:clock[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:clock[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:diamond_leggings[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:diamond_leggings[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:wooden_shovel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:wooden_shovel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:netherite_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:netherite_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:netherite_leggings[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:netherite_leggings[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:netherite_shovel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:netherite_shovel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:jack_o_lantern[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:jack_o_lantern[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:turtle_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:turtle_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:bone_meal[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:bone_meal[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:diamond_boots[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:diamond_boots[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:pumpkin_pie[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:pumpkin_pie[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:netherite_axe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:netherite_axe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:soul_torch[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:soul_torch[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:iron_sword[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:iron_sword[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:sticky_piston[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:sticky_piston[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:white_wool_from_string[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:white_wool_from_string[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:netherite_boots[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:netherite_boots[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe 'minecraft:leather_boots[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:19] [WARN ] Failed to parse recipe minecraft:leather_boots[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:iron_shovel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:iron_shovel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:leather_horse_armor[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:leather_horse_armor[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:melon_seeds[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:melon_seeds[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:enchanting_table[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:enchanting_table[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:leather_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:leather_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:tinted_glass[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:tinted_glass[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:iron_hoe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:iron_hoe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:wooden_hoe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:wooden_hoe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:map[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:map[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:crafting_table[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:crafting_table[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:anvil[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:anvil[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:composter[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:composter[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:diamond_pickaxe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:diamond_pickaxe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:suspicious_stew[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:suspicious_stew[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:wooden_pickaxe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:wooden_pickaxe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:golden_axe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:golden_axe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:barrel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:barrel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:iron_boots[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:iron_boots[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:golden_chestplate[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:golden_chestplate[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:painting[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:painting[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:bricks[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:bricks[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:diamond_hoe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:diamond_hoe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:leather_chestplate[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:leather_chestplate[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:leather_leggings[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:leather_leggings[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:bowl[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:bowl[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:iron_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:iron_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:golden_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:golden_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:netherite_pickaxe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:netherite_pickaxe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:wooden_sword[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:wooden_sword[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:bucket[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:bucket[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:rabbit_stew_from_brown_mushroom[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:rabbit_stew_from_brown_mushroom[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:flint_and_steel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:flint_and_steel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:golden_sword[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:golden_sword[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:hay_block[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:hay_block[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:rabbit_stew_from_red_mushroom[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:rabbit_stew_from_red_mushroom[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:blaze_rod[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:blaze_rod[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:beetroot_soup[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:beetroot_soup[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:golden_leggings[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:golden_leggings[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:wheat[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:wheat[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe 'minecraft:campfire[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [WARN ] Failed to parse recipe minecraft:campfire[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[14:58:20] [INFO ] Found 7137 recipes and 0 failed recipes in 216.7 ms
+[14:58:20] [INFO ] server_scripts:quark.js:14: - quark:tools/crafting/bundle[minecraft:crafting_shaped]: ['minecraft:string', 'minecraft:rabbit_hide'] -> ['minecraft:bundle']
+[14:58:20] [INFO ] server_scripts:quark.js:15: + tfc:leather_knapping: [] -> []
+[14:58:20] [INFO ] Posted recipe events in 84.57 ms
+[14:58:20] [INFO ] Modified & removed recipes in 148.0 ms
+[14:58:20] [INFO ] Added recipes in 137.0 μs
+[14:58:20] [INFO ] Added 1 recipes, removed 1 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes

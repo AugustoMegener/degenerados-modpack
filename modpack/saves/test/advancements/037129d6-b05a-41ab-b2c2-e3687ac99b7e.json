@@ -1445,6 +1445,12 @@
     },
     "done": true
   },
+  "tfc:story/leather": {
+    "criteria": {
+      "leather": "2022-09-17 14:53:55 -0300"
+    },
+    "done": true
+  },
   "tfc:crafting/wood/white_cedar_planks": {
     "criteria": {
       "has_the_recipe": "2022-09-17 12:17:11 -0300"
