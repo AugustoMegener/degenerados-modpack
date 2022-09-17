@@ -1,0 +1,709 @@
+{
+	id: "357313E7E5D5BB93"
+	group: "74A1066651644D3D"
+	order_index: 0
+	filename: "stone_age"
+	title: "Stone Age."
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "tfc:field_guide"
+				}
+			}
+			x: -1.5d
+			y: 1.0d
+			shape: "gear"
+			subtitle: "A new way to play minecraft."
+			description: ["TerraFirmaCraft is a mod that adds some realism to the game, it will change the game as you know it, now you can no longer break trees with your hands and the dirt falls like sand, this book will guide you in this new world!"]
+			id: "0AC462CF606916CB"
+			tasks: [{
+				id: "66A08E52E268ECF7"
+				type: "checkmark"
+				title: "TerraFirmaCraft"
+			}]
+			rewards: [{
+				id: "16272DEE711F0405"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "tfc:field_guide"
+					}
+				}
+			}]
+		}
+		{
+			title: "Chipped stone."
+			x: 0.0d
+			y: 0.0d
+			subtitle: "You can get the rocks on the floor right-clicking it!"
+			dependencies: ["0AC462CF606916CB"]
+			id: "477D122E0F1E8FD6"
+			tasks: [{
+				id: "2BA119FA62F0D558"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "tfc:sedimentary_rock"
+								}
+							}
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "tfc:rock_knapping"
+								}
+							}
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "tfc:metamorphic_rock"
+								}
+							}
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "tfc:igneous_extrusive_rock"
+								}
+							}
+							{
+								id: "itemfilters:tag"
+								Count: 1b
+								tag: {
+									value: "tfc:igneous_intrusive_rock"
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "68027616F41666E5"
+					type: "item"
+					item: "tfc:rock/loose/shale"
+					count: 16
+				}
+				{
+					id: "1D10479B5F71F10E"
+					type: "item"
+					item: "farmersdelight:tomato"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Sticks on the floor."
+			x: 0.0d
+			y: 2.0d
+			subtitle: "You can get the sticks on the floor right-clicking it"
+			dependencies: ["0AC462CF606916CB"]
+			id: "0D3BE2F633E2D1D9"
+			tasks: [{
+				id: "3719333760A1D6DC"
+				type: "item"
+				item: {
+					id: "minecraft:stick"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "336114F56F755C0F"
+					type: "item"
+					item: {
+						id: "minecraft:stick"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+					count: 16
+				}
+				{
+					id: "2CAAB353452885A7"
+					type: "item"
+					item: "farmersdelight:cabbage_leaf"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Getting Straw."
+			icon: {
+				id: "tfc:stone/knife/igneous_extrusive"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Straaaaaw."
+			description: [
+				"To get straw, first you need to make a knife, the knife is composed of a knife head and a stick."
+				"To craft a Knife head, right-clickng with two or more rocks on the hand, now you can chip the stone to the knife (see the craftgns in JEI)."
+				"Now you can break tall grass to get straw!"
+			]
+			dependencies: [
+				"477D122E0F1E8FD6"
+				"0D3BE2F633E2D1D9"
+			]
+			id: "3FB603BCE1557B39"
+			tasks: [
+				{
+					id: "461B5B1A5CA9C254"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tfc:stone/knife_head/igneous_extrusive"
+									Count: 1b
+								}
+								{
+									id: "tfc:stone/knife_head/igneous_intrusive"
+									Count: 1b
+								}
+								{
+									id: "tfc:stone/knife_head/metamorphic"
+									Count: 1b
+								}
+								{
+									id: "tfc:stone/knife_head/sedimentary"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "605561F1A4615906"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tfc:stone/knife/igneous_extrusive"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/knife/igneous_intrusive"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/knife/metamorphic"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/knife/sedimentary"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "5815E98B8695CE6D"
+					type: "item"
+					item: "tfc:straw"
+				}
+			]
+			rewards: [
+				{
+					id: "32A5018A8C2861FA"
+					type: "item"
+					item: "tfc:straw"
+					count: 16
+				}
+				{
+					id: "198E207616044EE4"
+					type: "item"
+					item: {
+						id: "tfc:food/rye_bread"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:food": {
+								traits: [ ]
+								creationDate: 954000L
+							}
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Getting wood."
+			icon: {
+				id: "tfc:stone/axe/igneous_extrusive"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.5d
+			y: 1.0d
+			subtitle: "Finally wood!"
+			description: [
+				"To get a axe, first you need to make an axe head and a stick."
+				"Breakng trees, it will drop a log item."
+			]
+			dependencies: [
+				"0D3BE2F633E2D1D9"
+				"477D122E0F1E8FD6"
+			]
+			id: "6D49CF5AD4480DB8"
+			tasks: [
+				{
+					id: "7AADF6BFB870A2BD"
+					type: "item"
+					title: "Stone Axe Head"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tfc:stone/axe_head/igneous_extrusive"
+									Count: 1b
+								}
+								{
+									id: "tfc:stone/axe_head/igneous_intrusive"
+									Count: 1b
+								}
+								{
+									id: "tfc:stone/axe_head/metamorphic"
+									Count: 1b
+								}
+								{
+									id: "tfc:stone/axe_head/sedimentary"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "3A865FB614EF00BF"
+					type: "item"
+					title: "Stone Axe"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tfc:stone/axe/igneous_extrusive"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/axe/igneous_intrusive"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/axe/metamorphic"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/axe/sedimentary"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "22D504D0D6EF3257"
+					type: "item"
+					item: "tfc:wood/log/oak"
+					count: 8
+				}
+				{
+					id: "514BFE750BA9AC2B"
+					type: "item"
+					item: "minecraft:apple"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "Discovering fire."
+			icon: "tfc:firepit"
+			x: 4.0d
+			y: 0.5d
+			shape: "circle"
+			subtitle: "Roof on fire!"
+			description: [
+				""
+				"Drop a log, tree sticks and some kindling, like straw, then use the fire starter on it, now you have a firepit!"
+			]
+			dependencies: [
+				"6D49CF5AD4480DB8"
+				"3FB603BCE1557B39"
+			]
+			id: "2A5E96518A615651"
+			tasks: [{
+				id: "474494D77F7656DA"
+				type: "item"
+				item: {
+					id: "tfc:firestarter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3B96A3A255460EAE"
+					type: "item"
+					item: "tfc:wood/log/oak"
+					count: 8
+				}
+				{
+					id: "788B27A3C2A18F91"
+					type: "item"
+					item: "tfc:straw"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Torches!"
+			x: 4.0d
+			y: 2.0d
+			subtitle: "Lighting up."
+			description: ["Put sticks on the firepit and get torches!"]
+			dependencies: ["2A5E96518A615651"]
+			id: "3A22E4EA4116AC63"
+			tasks: [{
+				id: "6062782357C43409"
+				type: "item"
+				item: "tfc:torch"
+			}]
+			rewards: [{
+				id: "6FECFE07B04790EE"
+				type: "item"
+				item: "tfc:torch"
+				count: 32
+			}]
+		}
+		{
+			title: "Ceramic."
+			x: 4.0d
+			y: -1.5d
+			subtitle: "Starting with ceramic!"
+			description: [
+				"Take some clay balls, you can find them in a type of soil that has clay in it, its surface is the same as normal soil, to identify, you must identify specific types of plants (see the book in the \"Pottery\" chapter)."
+				"Right-clicking a clay ball in the air will bring up a crafting interface similar to chipped stone to shape a clay object."
+			]
+			dependencies: [
+				"2A5E96518A615651"
+				"6D04E8863E828450"
+			]
+			id: "36AF4A56EF821DD1"
+			tasks: [{
+				id: "3D2DF93775648E1D"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+			rewards: [{
+				id: "15BEE237E418A78A"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 16
+			}]
+		}
+		{
+			title: "Vessel."
+			icon: {
+				id: "tfc:ceramic/vessel"
+				Count: 1b
+				tag: { }
+				ForgeCaps: {
+					Parent: { }
+				}
+			}
+			disable_toast: true
+			x: 6.5d
+			y: -1.5d
+			subtitle: "Starting in metallurgy!"
+			description: ["The vessel item can be used as a way of transporting items, but its main use is to smelt ores, find some ore weights on the floor and place it inside the vessel and place it in a pit kiln, you will get molten metal that can be used in molds."]
+			dependencies: ["36AF4A56EF821DD1"]
+			id: "15DF8EDE7B237731"
+			tasks: [{
+				id: "52742F825A69AE94"
+				type: "item"
+				item: {
+					id: "tfc:ceramic/vessel"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "5EBD37F092B1566F"
+				type: "item"
+				item: "farmersdelight:chicken_sandwich"
+			}]
+		}
+		{
+			title: "Pit kiln."
+			icon: "tfc:straw"
+			x: 5.5d
+			y: 0.5d
+			shape: "hexagon"
+			subtitle: "Let it burn!"
+			description: ["Place up to 4 items on the ground using the V key, on top of the items put 8 straws and 8 logs, ascend with a torch or fire starter, this melt method will mainly be used to create ceramics and smelt ores."]
+			dependencies: ["2A5E96518A615651"]
+			id: "6D04E8863E828450"
+			tasks: [{
+				id: "412A1414D373BCF6"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "484277C5E796BC0B"
+				type: "item"
+				item: "farmersdelight:apple_cider"
+			}]
+		}
+		{
+			title: "Jug."
+			x: 6.5d
+			y: -0.5d
+			subtitle: "Storing liquids."
+			description: ["Right click on a liquid storage, the jug will store up to 100mb of liquid."]
+			dependencies: ["36AF4A56EF821DD1"]
+			id: "3E8029BA4D9C74EE"
+			tasks: [{
+				id: "44AAC5C816B87C60"
+				type: "item"
+				item: {
+					id: "tfc:ceramic/jug"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1FC00A72EFC87775"
+				type: "item"
+				item: "farmersdelight:hot_cocoa"
+			}]
+		}
+		{
+			title: "Pot."
+			x: 6.5d
+			y: -2.5d
+			subtitle: "Primitive cuisine."
+			description: ["By right clicking the pot on a firepit, you will be able to cook in it."]
+			dependencies: ["36AF4A56EF821DD1"]
+			id: "28BD1546BA37AEB5"
+			tasks: [{
+				id: "03A69C5592F06086"
+				type: "item"
+				item: "tfc:ceramic/pot"
+			}]
+			rewards: [{
+				id: "70B21D290CF88725"
+				type: "item"
+				item: "farmersdelight:noodle_soup"
+			}]
+		}
+		{
+			title: "Starting hunting."
+			icon: {
+				id: "tfc:stone/javelin/igneous_extrusive"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.5d
+			y: 2.0d
+			dependencies: [
+				"477D122E0F1E8FD6"
+				"0D3BE2F633E2D1D9"
+			]
+			id: "53F3E8C74BC35526"
+			tasks: [
+				{
+					id: "7E2614638A2E0D34"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tfc:stone/javelin/igneous_extrusive"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/javelin/igneous_intrusive"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/javelin/metamorphic"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "tfc:stone/javelin/sedimentary"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "6B4FB21195C84DF7"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "tfc:stone/javelin_head/igneous_extrusive"
+									Count: 1b
+								}
+								{
+									id: "tfc:stone/javelin_head/igneous_intrusive"
+									Count: 1b
+								}
+								{
+									id: "tfc:stone/javelin_head/metamorphic"
+									Count: 1b
+								}
+								{
+									id: "tfc:stone/javelin_head/sedimentary"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Hide."
+			x: 2.5d
+			y: 4.0d
+			subtitle: "Working with hide."
+			description: ["There are three types of hide, small, medium and large, they are dropped according to the size of the hunted animal."]
+			dependencies: ["53F3E8C74BC35526"]
+			id: "53883E7E5EABB219"
+			tasks: [
+				{
+					id: "38B4738F03B60B95"
+					type: "item"
+					item: "tfc:large_raw_hide"
+				}
+				{
+					id: "07AF95AD97747A21"
+					type: "item"
+					item: "tfc:medium_raw_hide"
+				}
+				{
+					id: "2A77272F3849AC3D"
+					type: "item"
+					item: "tfc:small_raw_hide"
+				}
+			]
+			rewards: [{
+				id: "38F0A7ABB3611C0F"
+				type: "item"
+				item: "farmersdelight:pasta_with_meatballs"
+			}]
+		}
+		{
+			icon: "tfc:thatch_bed"
+			x: 1.0d
+			y: 4.0d
+			shape: "hexagon"
+			subtitle: "What a insomnia! :("
+			description: ["The thatch bed can be made by placing two thatch next to each other and clicking with a large raw hide, this bed is just to mark the spawnpoint, it doesn't make the night go by."]
+			dependencies: ["53883E7E5EABB219"]
+			id: "734F5795921989ED"
+			tasks: [{
+				id: "16F5F3E506C5EF97"
+				type: "checkmark"
+				title: "First bed."
+			}]
+			rewards: [{
+				id: "5AC715C9FDB656FE"
+				type: "item"
+				item: "tfc:large_raw_hide"
+				count: 4
+			}]
+		}
+	]
+}

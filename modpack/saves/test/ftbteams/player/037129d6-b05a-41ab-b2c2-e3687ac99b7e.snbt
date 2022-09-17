@@ -1,0 +1,19 @@
+{
+	id: "037129d6-b05a-41ab-b2c2-e3687ac99b7e"
+	type: "player"
+	player_name: "KitoWasHere"
+	ranks: {
+		037129d6-b05a-41ab-b2c2-e3687ac99b7e: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "KitoWasHere"
+		"ftbteams:color": "#5973FF"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

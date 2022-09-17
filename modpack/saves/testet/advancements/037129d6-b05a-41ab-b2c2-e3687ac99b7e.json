@@ -1,0 +1,459 @@
+{
+  "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-30 15:26:13 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/stone/axe_sedimentary": {
+    "criteria": {
+      "has_item": "2022-08-30 15:33:16 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_axe": {
+    "criteria": {
+      "has_stick": "2022-08-30 15:13:23 -0300"
+    },
+    "done": true
+  },
+  "tfc:story/firepit": {
+    "criteria": {
+      "special_condition": "2022-08-30 15:40:00 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/claystone_loose_rocks_to_cobble": {
+    "criteria": {
+      "has_item": "2022-08-30 15:13:33 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/thatch": {
+    "criteria": {
+      "has_item": "2022-08-30 15:22:16 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-30 15:26:13 -0300"
+    },
+    "done": true
+  },
+  "tfc:story/root": {
+    "criteria": {
+      "in_game_condition": "2022-08-30 15:12:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-30 15:26:13 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/hickory_lumber_log": {
+    "criteria": {
+      "has_item": "2022-08-30 15:58:32 -0300"
+    },
+    "done": true
+  },
+  "tfc:story/find_clay": {
+    "criteria": {
+      "clay_ball": "2022-08-30 15:47:13 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_stick": "2022-08-30 15:13:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-30 15:26:13 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2022-08-30 15:26:16 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/shale_loose_rocks_to_cobble": {
+    "criteria": {
+      "has_item": "2022-08-30 15:27:08 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/vanilla/hay_bale": {
+    "criteria": {
+      "has_item": "2022-08-30 15:22:16 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_pickaxe": {
+    "criteria": {
+      "has_stick": "2022-08-30 15:13:23 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/shale_brick": {
+    "criteria": {
+      "has_item": "2022-08-30 15:27:08 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/stick_bunch": {
+    "criteria": {
+      "has_item": "2022-08-30 15:13:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ladder": {
+    "criteria": {
+      "has_stick": "2022-08-30 15:13:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2022-08-31 14:46:54 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2022-08-30 15:26:13 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2022-08-31 14:10:52 -0300"
+    },
+    "done": true
+  },
+  "tfc:world/seeds": {
+    "criteria": {
+      "seeds": "2022-08-31 14:46:42 -0300"
+    },
+    "done": true
+  },
+  "tfc:story/stone_age": {
+    "criteria": {
+      "stone_tools": "2022-08-30 15:16:07 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-30 15:26:13 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2022-08-30 15:13:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2022-08-31 14:10:52 -0300"
+    },
+    "done": true
+  },
+  "tfc:story/logging": {
+    "criteria": {
+      "logs": "2022-08-30 15:33:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-30 15:26:13 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/claystone_brick": {
+    "criteria": {
+      "has_item": "2022-08-30 15:13:33 -0300"
+    },
+    "done": true
+  },
+  "tfc:world/all_crops": {
+    "criteria": {
+      "oat": "2022-08-31 14:46:42 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2022-08-30 15:47:13 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2022-08-31 14:10:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-08-31 14:10:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-30 15:26:13 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/wooden_sword": {
+    "criteria": {
+      "has_stick": "2022-08-30 15:13:23 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/rosewood_wood": {
+    "criteria": {
+      "has_item": "2022-08-31 14:45:50 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/stone/knife_sedimentary": {
+    "criteria": {
+      "has_item": "2022-08-30 15:16:07 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-30 15:26:13 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/andesite_loose_rocks_to_cobble": {
+    "criteria": {
+      "has_item": "2022-08-31 14:30:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2022-08-31 14:10:52 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/rosewood_lumber_log": {
+    "criteria": {
+      "has_item": "2022-08-31 14:45:50 -0300"
+    },
+    "done": true
+  },
+  "tfc:story/get_straw": {
+    "criteria": {
+      "straw": "2022-08-30 15:22:16 -0300"
+    },
+    "done": true
+  },
+  "tfc:world/iron": {
+    "criteria": {
+      "limonite": "2022-08-31 14:39:13 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/brown_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-30 15:26:13 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-30 15:26:13 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/chestnut_wood": {
+    "criteria": {
+      "has_item": "2022-08-30 15:33:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_hoe": {
+    "criteria": {
+      "has_stick": "2022-08-30 15:13:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-30 15:26:13 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/stick_from_twigs": {
+    "criteria": {
+      "has_item": "2022-08-30 15:13:25 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/daub": {
+    "criteria": {
+      "has_item": "2022-08-30 15:22:16 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/ash_lumber_log": {
+    "criteria": {
+      "has_item": "2022-08-31 14:23:03 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/chestnut_lumber_log": {
+    "criteria": {
+      "has_item": "2022-08-30 15:33:34 -0300"
+    },
+    "done": true
+  },
+  "tfc:world/bed": {
+    "criteria": {
+      "beds": "2022-08-30 15:26:13 -0300"
+    },
+    "done": true
+  },
+  "tfc:story/pit_kiln": {
+    "criteria": {
+      "special_condition": "2022-08-31 14:12:57 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-30 15:26:13 -0300"
+    },
+    "done": true
+  },
+  "tfc:story/knap_clay": {
+    "criteria": {
+      "unfired_pottery": "2022-08-30 15:49:32 -0300"
+    },
+    "done": true
+  },
+  "tfc:story/firestarter": {
+    "criteria": {
+      "firestarter": "2022-08-30 15:36:34 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/firestarter": {
+    "criteria": {
+      "has_item": "2022-08-30 15:13:23 -0300"
+    },
+    "done": true
+  },
+  "tfc:story/find_rock": {
+    "criteria": {
+      "rock_knapping": "2022-08-30 15:13:33 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/hickory_wood": {
+    "criteria": {
+      "has_item": "2022-08-30 15:58:32 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/rock/andesite_brick": {
+    "criteria": {
+      "has_item": "2022-08-31 14:30:26 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-30 15:26:13 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wood/ash_wood": {
+    "criteria": {
+      "has_item": "2022-08-31 14:23:03 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_stick": "2022-08-30 15:13:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_stick": "2022-08-30 15:13:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2022-08-31 14:10:52 -0300"
+    },
+    "done": true
+  },
+  "tfc:world/root": {
+    "criteria": {
+      "in_game_condition": "2022-08-30 15:12:17 -0300"
+    },
+    "done": true
+  },
+  "tfc:world/nugget": {
+    "criteria": {
+      "nuggets": "2022-08-31 14:39:13 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-30 15:26:13 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2022-08-30 15:47:13 -0300"
+    },
+    "done": true
+  },
+  "tfc:crafting/wattle": {
+    "criteria": {
+      "has_item": "2022-08-30 15:33:34 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-30 15:26:13 -0300"
+    },
+    "done": true
+  },
+  "tfc:world/adventuring_time": {
+    "criteria": {
+      "low_canyons": "2022-08-31 14:26:52 -0300",
+      "rolling_hills": "2022-08-30 15:12:17 -0300",
+      "inverted_badlands": "2022-08-31 14:33:06 -0300",
+      "plateau": "2022-08-31 14:35:56 -0300",
+      "badlands": "2022-08-31 14:38:21 -0300",
+      "hills": "2022-08-30 15:25:36 -0300",
+      "river": "2022-08-31 14:26:55 -0300"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

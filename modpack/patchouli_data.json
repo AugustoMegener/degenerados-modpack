@@ -1,0 +1,27 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "tfc:field_guide": {
+      "viewedEntries": [
+        "tfc:the_world/ores_and_minerals",
+        "tfc:getting_started/introduction",
+        "tfc:getting_started/firepit",
+        "tfc:getting_started/size_and_weight",
+        "tfc:the_world/wild_crops",
+        "tfc:the_world/waterways",
+        "tfc:the_world/food_and_water",
+        "tfc:getting_started/pottery",
+        "tfc:getting_started/pit_kiln",
+        "tfc:getting_started/finding_ores",
+        "tfc:getting_started/primitive_alloys",
+        "tfc:getting_started/primitive_anvils",
+        "tfc:getting_started/building_materials",
+        "tfc:getting_started/a_place_to_sleep",
+        "tfc:the_world/wild_animals"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}

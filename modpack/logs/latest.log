@@ -1,0 +1,1077 @@
+[17set.2022 12:47:23.144] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, KitoWasHere, --version, 1.18.2-forge-40.1.80, --gameDir, C:\Users\Usuario\Desktop\joojs\mine\modpackzin, --assetsDir, C:\Users\Usuario\AppData\Roaming\.minecraft\assets, --assetIndex, 1.18, --uuid, 037129d6b05a41abb2c2e3687ac99b7e, --accessToken, ????????, --clientId, ODE3YTc1YTctMGRjNi00MzU5LTllYmItOTQwYTg4NDE3NTVl, --xuid, 2535437847916948, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 40.1.80, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[17set.2022 12:47:23.159] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.1 by Microsoft
+[17set.2022 12:47:23.802] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Usuario/AppData/Roaming/.minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=CLIENT
+[17set.2022 12:47:25.775] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Usuario\AppData\Roaming\.minecraft\libraries\net\minecraftforge\fmlcore\1.18.2-40.1.80\fmlcore-1.18.2-40.1.80.jar is missing mods.toml file
+[17set.2022 12:47:25.799] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Usuario\AppData\Roaming\.minecraft\libraries\net\minecraftforge\javafmllanguage\1.18.2-40.1.80\javafmllanguage-1.18.2-40.1.80.jar is missing mods.toml file
+[17set.2022 12:47:25.821] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Usuario\AppData\Roaming\.minecraft\libraries\net\minecraftforge\lowcodelanguage\1.18.2-40.1.80\lowcodelanguage-1.18.2-40.1.80.jar is missing mods.toml file
+[17set.2022 12:47:25.855] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Usuario\AppData\Roaming\.minecraft\libraries\net\minecraftforge\mclanguage\1.18.2-40.1.80\mclanguage-1.18.2-40.1.80.jar is missing mods.toml file
+[17set.2022 12:47:26.185] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[17set.2022 12:47:36.037] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[17set.2022 12:47:36.180] [main/ERROR] [mixin/]: Mixin config rubidium.mixins.json does not specify "minVersion" property
+[17set.2022 12:47:36.205] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.18.2-forge-40.1.80, --gameDir, C:\Users\Usuario\Desktop\joojs\mine\modpackzin, --assetsDir, C:\Users\Usuario\AppData\Roaming\.minecraft\assets, --uuid, 037129d6b05a41abb2c2e3687ac99b7e, --username, KitoWasHere, --assetIndex, 1.18, --accessToken, ????????, --clientId, ODE3YTc1YTctMGRjNi00MzU5LTllYmItOTQwYTg4NDE3NTVl, --xuid, 2535437847916948, --userType, msa, --versionType, release]
+[17set.2022 12:47:37.572] [main/INFO] [Rubidium/]: Trying to switch memory allocators to work around memory leaks present with Jemalloc 5.0.0 through 5.2.0 on Windows
+[17set.2022 12:47:37.603] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 29 options available, 0 override(s) found
+[17set.2022 12:48:09.004] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Usuario/AppData/Roaming/.minecraft/libraries/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-srg.jar%2371!/assets/.mcassetsroot' uses unexpected schema
+[17set.2022 12:48:09.005] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Usuario/AppData/Roaming/.minecraft/libraries/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-srg.jar%2371!/data/.mcassetsroot' uses unexpected schema
+[17set.2022 12:48:09.033] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17set.2022 12:48:10.374] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: KitoWasHere
+[17set.2022 12:48:10.785] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 SNAPSHOT
+[17set.2022 12:48:12.345] [Render thread/INFO] [KubeJS/]: Loaded client.properties
+[17set.2022 12:48:18.237] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id architectury:sync_ids
+[17set.2022 12:48:18.239] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[17set.2022 12:48:18.240] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftblibrary:edit_nbt
+[17set.2022 12:48:18.242] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[17set.2022 12:48:18.244] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftblibrary:sync_known_server_registries
+[17set.2022 12:48:18.606] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id itemfilters:main/14e7fa1454283aec8ae811ef844ada28
+[17set.2022 12:48:18.606] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id itemfilters:main/14e7fa1454283aec8ae811ef844ada28
+[17set.2022 12:48:18.627] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbteams:sync_teams
+[17set.2022 12:48:18.698] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[17set.2022 12:48:18.699] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbteams:open_my_team_gui
+[17set.2022 12:48:18.701] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[17set.2022 12:48:18.702] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbteams:update_settings_response
+[17set.2022 12:48:18.704] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[17set.2022 12:48:18.705] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbteams:send_message_response
+[17set.2022 12:48:18.706] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbteams:update_presence
+[17set.2022 12:48:18.707] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[17set.2022 12:48:18.720] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[17set.2022 12:48:18.726] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[17Sep2022 12:48:18.793] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_map_data
+[17Sep2022 12:48:18.835] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbchunks:send_all_chunks
+[17Sep2022 12:48:18.871] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbchunks:login_data
+[17Sep2022 12:48:18.875] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_chunk_change
+[17Sep2022 12:48:18.877] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbchunks:send_chunk
+[17Sep2022 12:48:18.880] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbchunks:send_general_data
+[17Sep2022 12:48:18.883] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:teleport_from_map
+[17Sep2022 12:48:18.885] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbchunks:player_death
+[17Sep2022 12:48:18.887] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbchunks:send_visible_player_list
+[17Sep2022 12:48:18.888] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:sync_tx
+[17set.2022 12:48:18.896] [modloading-worker-0/ERROR] [KubeJS/]: Failed to load plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration from source kubejs: java.lang.NoClassDefFoundError: net/darkhax/gamestages/event/GameStageEvent
+[17set.2022 12:48:18.897] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source ftbquests
+[17set.2022 12:48:18.899] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source ftbchunks
+[17set.2022 12:48:18.906] [modloading-worker-0/INFO] [KubeJS/]: Done in 181.8 ms
+[17Sep2022 12:48:18.974] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbchunks:sync_rx
+[17Sep2022 12:48:18.979] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbchunks:loaded_chunk_view
+[17set.2022 12:48:20.174] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[17Sep2022 12:48:20.283] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_quests
+[17Sep2022 12:48:20.285] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_team_data
+[17Sep2022 12:48:20.294] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:update_task_progress
+[17Sep2022 12:48:20.297] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:submit_task
+[17Sep2022 12:48:20.300] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_reward
+[17Sep2022 12:48:20.302] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:claim_reward_response
+[17Sep2022 12:48:20.314] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_editing_mode
+[17Sep2022 12:48:20.315] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:get_emergency_items
+[17Sep2022 12:48:20.316] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:create_other_team_data
+[17Sep2022 12:48:20.318] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_all_rewards
+[17Sep2022 12:48:20.319] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_choice_reward
+[17Sep2022 12:48:20.320] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:display_completion_toast
+[17Sep2022 12:48:20.323] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:display_reward_toast
+[17Sep2022 12:48:20.324] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:display_item_reward_toast
+[17set.2022 12:48:20.367] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[17Sep2022 12:48:20.449] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_pinned
+[17Sep2022 12:48:20.452] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:toggle_pinned_response
+[17Sep2022 12:48:20.462] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:update_team_data
+[17Sep2022 12:48:20.465] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:set_custom_image
+[17Sep2022 12:48:20.468] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:object_started
+[17Sep2022 12:48:20.470] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:object_completed
+[17Sep2022 12:48:20.472] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:object_started_reset
+[17Sep2022 12:48:20.473] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:object_completed_reset
+[17Sep2022 12:48:20.475] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:sync_lock
+[17Sep2022 12:48:20.476] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:reset_reward
+[17Sep2022 12:48:20.477] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:team_data_changed
+[17Sep2022 12:48:20.482] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_progress
+[17Sep2022 12:48:20.484] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_object
+[17Sep2022 12:48:20.486] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:create_object_response
+[17Sep2022 12:48:20.487] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_task_at
+[17Sep2022 12:48:20.489] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:delete_object
+[17Sep2022 12:48:20.490] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:delete_object_response
+[17Sep2022 12:48:20.491] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:edit_object
+[17Sep2022 12:48:20.494] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:edit_object_response
+[17Sep2022 12:48:20.496] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter
+[17Sep2022 12:48:20.536] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:move_chapter_response
+[17Sep2022 12:48:20.537] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_quest
+[17Sep2022 12:48:20.539] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:move_quest_response
+[17Sep2022 12:48:20.717] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_chapter_group
+[17Sep2022 12:48:20.723] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:change_chapter_group_response
+[17Sep2022 12:48:20.734] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter_group
+[17Sep2022 12:48:20.735] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbquests:move_chapter_group_response
+[17Sep2022 12:48:20.974] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.1.80, for MC 1.18.2 with MCP 20220404.173914
+[17Sep2022 12:48:20.975] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.1.80 Initialized
+[17Sep2022 12:48:21.667] [modloading-worker-0/INFO] [net.dries007.tfc.TerraFirmaCraft/]: Initializing TerraFirmaCraft
+[17Sep2022 12:48:21.813] [modloading-worker-0/INFO] [net.dries007.tfc.TerraFirmaCraft/]: Options: Assertions Enabled = false, Boostrap = false, Test = false, Debug Logging = true
+[17set.2022 12:48:23.416] [modloading-worker-0/INFO] [KubeJS Startup/]: Hello, World! (You will only see this line once in console, during startup)
+[17set.2022 12:48:23.434] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:script.js in 0.426 s
+[17set.2022 12:48:23.439] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 1/1 KubeJS startup scripts in 1.513 s
+[17set.2022 12:48:23.652] [modloading-worker-0/INFO] [KubeJS Client/]: Hello, World! (You will see this line every time client resources reload)
+[17set.2022 12:48:23.652] [modloading-worker-0/INFO] [KubeJS Client/]: Loaded script client_scripts:script.js in 0.002 s
+[17set.2022 12:48:23.653] [modloading-worker-0/INFO] [KubeJS Client/]: Loaded 1/1 KubeJS client scripts in 0.063 s
+[17set.2022 12:48:23.674] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[17set.2022 12:48:23.677] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:send_data_from_server
+[17set.2022 12:48:23.678] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:paint
+[17set.2022 12:48:23.679] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:add_stage
+[17set.2022 12:48:23.680] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:remove_stage
+[17set.2022 12:48:23.684] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id kubejs:sync_stages
+[17set.2022 12:48:24.029] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.SpiralSpiresModule
+[17set.2022 12:48:24.045] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.PermafrostModule
+[17set.2022 12:48:24.048] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NoMoreLavaPocketsModule
+[17set.2022 12:48:24.050] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NewStoneTypesModule
+[17set.2022 12:48:24.057] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NetherObsidianSpikesModule
+[17set.2022 12:48:24.059] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.MonsterBoxModule
+[17set.2022 12:48:24.061] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.GlimmeringWealdModule
+[17set.2022 12:48:24.165] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.FairyRingsModule
+[17set.2022 12:48:24.167] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.CorundumModule
+[17set.2022 12:48:24.170] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.ChorusVegetationModule
+[17set.2022 12:48:24.178] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BlossomTreesModule
+[17set.2022 12:48:24.185] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BigStoneClustersModule
+[17set.2022 12:48:24.196] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BigDungeonModule
+[17set.2022 12:48:24.201] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.AzaleaWoodModule
+[17set.2022 12:48:24.203] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VillagersFollowEmeraldsModule
+[17set.2022 12:48:24.204] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VexesDieWithTheirMastersModule
+[17set.2022 12:48:24.207] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.UtilityRecipesModule
+[17set.2022 12:48:24.209] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SnowGolemPlayerHeadsModule
+[17set.2022 12:48:24.319] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SimpleHarvestModule
+[17set.2022 12:48:24.322] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SignEditingModule
+[17set.2022 12:48:24.324] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReplaceScaffoldingModule
+[17set.2022 12:48:24.326] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReacharoundPlacingModule
+[17set.2022 12:48:24.341] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PoisonPotatoUsageModule
+[17set.2022 12:48:24.377] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PigLittersModule
+[17set.2022 12:48:24.380] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PatTheDogsModule
+[17set.2022 12:48:24.385] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.NoteBlockMobSoundsModule
+[17set.2022 12:48:24.386] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MoreBannerLayersModule
+[17set.2022 12:48:24.388] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.LockRotationModule
+[17set.2022 12:48:24.390] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.HoeHarvestingModule
+[17set.2022 12:48:24.473] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GrabChickensModule
+[17set.2022 12:48:24.474] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GlassShardModule
+[17set.2022 12:48:24.478] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EnhancedLaddersModule
+[17set.2022 12:48:24.481] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EmotesModule
+[17set.2022 12:48:24.484] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DragonScalesModule
+[17set.2022 12:48:24.485] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DoubleDoorOpeningModule
+[17set.2022 12:48:24.489] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CompassesWorkEverywhereModule
+[17set.2022 12:48:24.491] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CampfiresBoostElytraModule
+[17set.2022 12:48:24.492] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.BetterElytraRocketModule
+[17set.2022 12:48:24.493] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.AutomaticRecipeUnlockModule
+[17set.2022 12:48:24.494] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ArmedArmorStandsModule
+[17set.2022 12:48:24.495] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.TrowelModule
+[17set.2022 12:48:24.496] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SlimeInABucketModule
+[17set.2022 12:48:24.505] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SkullPikesModule
+[17set.2022 12:48:24.510] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SeedPouchModule
+[17set.2022 12:48:24.526] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PickarangModule
+[17set.2022 12:48:24.578] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PathfinderMapsModule
+[17set.2022 12:48:24.581] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ParrotEggsModule
+[17set.2022 12:48:24.583] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.EndermoshMusicDiscModule
+[17set.2022 12:48:24.585] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ColorRunesModule
+[17set.2022 12:48:24.588] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.CameraModule
+[17set.2022 12:48:24.589] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BundleRecipeModule
+[17set.2022 12:48:24.590] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BottledCloudModule
+[17set.2022 12:48:24.593] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BeaconRedirectionModule
+[17set.2022 12:48:24.595] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AncientTomesModule
+[17set.2022 12:48:24.603] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AmbientDiscsModule
+[17set.2022 12:48:24.604] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AbacusModule
+[17set.2022 12:48:24.607] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.WraithModule
+[17set.2022 12:48:24.610] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ToretoiseModule
+[17set.2022 12:48:24.653] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.StonelingsModule
+[17set.2022 12:48:24.655] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ShibaModule
+[17set.2022 12:48:24.656] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.FrogsModule
+[17set.2022 12:48:24.657] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.FoxhoundModule
+[17set.2022 12:48:24.660] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ForgottenModule
+[17set.2022 12:48:24.663] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.CrabsModule
+[17set.2022 12:48:24.667] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.QuickArmorSwappingModule
+[17set.2022 12:48:24.670] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ItemSharingModule
+[17set.2022 12:48:24.676] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.InventorySortingModule
+[17set.2022 12:48:24.678] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.HotbarChangerModule
+[17set.2022 12:48:24.680] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ExpandedItemInteractionsModule
+[17set.2022 12:48:24.686] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.EasyTransferingModule
+[17set.2022 12:48:24.687] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ChestsInBoatsModule
+[17set.2022 12:48:24.689] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.ZombieVillagersOnNormalModule
+[17set.2022 12:48:24.690] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.SpawnerReplacerModule
+[17set.2022 12:48:24.691] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.OverlayShaderModule
+[17set.2022 12:48:24.692] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.NarratorReadoutModule
+[17set.2022 12:48:24.775] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.GameNerfsModule
+[17set.2022 12:48:24.977] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentsBegoneModule
+[17set.2022 12:48:24.978] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.AdjustableChatModule
+[17set.2022 12:48:24.980] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.VariantAnimalTexturesModule
+[17set.2022 12:48:24.982] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsesForCursesModule
+[17set.2022 12:48:24.991] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsageTickerModule
+[17set.2022 12:48:24.992] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.SoulCandlesModule
+[17set.2022 12:48:24.994] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.MicrocraftingHelperModule
+[17set.2022 12:48:24.997] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ImprovedTooltipsModule
+[17set.2022 12:48:24.999] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.GreenerGrassModule
+[17set.2022 12:48:25.006] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ChestSearchingModule
+[17set.2022 12:48:25.007] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.BackButtonKeybind
+[17set.2022 12:48:25.008] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.AutoWalkKeybindModule
+[17set.2022 12:48:25.010] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.WoodenPostsModule
+[17set.2022 12:48:25.012] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalSlabsModule
+[17set.2022 12:48:25.020] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalPlanksModule
+[17set.2022 12:48:25.021] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantLaddersModule
+[17set.2022 12:48:25.398] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantFurnacesModule
+[17set.2022 12:48:25.402] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantChestsModule
+[17set.2022 12:48:25.411] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantBookshelvesModule
+[17set.2022 12:48:25.412] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ThatchModule
+[17set.2022 12:48:25.449] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SturdyStoneModule
+[17set.2022 12:48:25.455] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.StoolsModule
+[17set.2022 12:48:25.456] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SoulSandstoneModule
+[17set.2022 12:48:25.457] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShinglesModule
+[17set.2022 12:48:25.458] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShearVinesModule
+[17set.2022 12:48:25.463] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RopeModule
+[17set.2022 12:48:25.471] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.OrientalPaletteModule
+[17set.2022 12:48:25.473] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.NetherBrickFenceGateModule
+[17set.2022 12:48:25.474] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreStoneVariantsModule
+[17set.2022 12:48:25.475] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MorePottedPlantsModule
+[17set.2022 12:48:25.476] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreBrickTypesModule
+[17set.2022 12:48:25.477] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MidoriModule
+[17set.2022 12:48:25.481] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.LeafCarpetModule
+[17set.2022 12:48:25.483] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.IndustrialPaletteModule
+[17set.2022 12:48:25.485] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.HedgesModule
+[17set.2022 12:48:25.486] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GrateModule
+[17set.2022 12:48:25.513] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GoldBarsModule
+[17set.2022 12:48:25.515] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GlassItemFrameModule
+[17set.2022 12:48:25.518] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.FramedGlassModule
+[17set.2022 12:48:25.519] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.DuskboundBlocksModule
+[17set.2022 12:48:25.521] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CompressedBlocksModule
+[17set.2022 12:48:25.785] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CelebratoryLampsModule
+[17set.2022 12:48:25.786] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.RedstoneRandomizerModule
+[17set.2022 12:48:25.788] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.PistonsMoveTileEntitiesModule
+[17set.2022 12:48:25.789] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ObsidianPlateModule
+[17set.2022 12:48:25.790] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.MetalButtonsModule
+[17set.2022 12:48:25.791] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.JukeboxAutomationModule
+[17set.2022 12:48:25.794] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.IronRodModule
+[17set.2022 12:48:25.797] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.GravisandModule
+[17set.2022 12:48:25.799] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.FeedingTroughModule
+[17set.2022 12:48:25.802] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.EnderWatcherModule
+[17set.2022 12:48:25.803] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.DispensersPlaceBlocksModule
+[17set.2022 12:48:25.804] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChuteModule
+[17set.2022 12:48:25.807] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChainsConnectBlocksModule
+[17set.2022 12:48:25.810] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TotemOfHoldingModule
+[17set.2022 12:48:25.865] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TinyPotatoModule
+[17set.2022 12:48:25.870] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.PipesModule
+[17set.2022 12:48:25.874] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MatrixEnchantingModule
+[17set.2022 12:48:25.893] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MagnetsModule
+[17set.2022 12:48:25.898] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.CrateModule
+[17set.2022 12:48:25.901] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.BackpackModule
+[17set.2022 12:48:25.907] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONSTRUCT
+[17set.2022 12:48:27.683] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONSTRUCT_CLIENT
+[17set.2022 12:48:41.230] [Render thread/INFO] [quark/]: Dispatching Module Step REGISTER
+[17set.2022 12:48:45.230] [Render thread/INFO] [quark/]: Dispatching Module Step POST_REGISTER
+[17set.2022 12:48:46.815] [Render thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[17set.2022 12:48:46.816] [Render thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[17set.2022 12:48:53.054] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[17set.2022 12:48:53.507] [Render thread/WARN] [patchouli/]: Could not locate JEI keybindings, lookups in books may not work
+[17set.2022 12:48:53.692] [Render thread/INFO] [quark/]: Registering model layer quark:crab#main
+[17set.2022 12:48:53.693] [Render thread/INFO] [quark/]: Registering model layer quark:shiba#main
+[17set.2022 12:48:53.693] [Render thread/INFO] [quark/]: Registering model layer quark:frog#main
+[17set.2022 12:48:53.693] [Render thread/INFO] [quark/]: Registering model layer quark:wraith#main
+[17set.2022 12:48:53.693] [Render thread/INFO] [quark/]: Registering model layer quark:forgotten_hat#main
+[17set.2022 12:48:53.693] [Render thread/INFO] [quark/]: Registering model layer quark:stoneling#main
+[17set.2022 12:48:53.693] [Render thread/INFO] [quark/]: Registering model layer quark:toretoise#main
+[17set.2022 12:48:53.693] [Render thread/INFO] [quark/]: Registering model layer quark:quark_boat#main
+[17set.2022 12:48:53.693] [Render thread/INFO] [quark/]: Registering model layer quark:foxhound#main
+[17set.2022 12:48:53.693] [Render thread/INFO] [quark/]: Registering model layer quark:backpack#main
+[17set.2022 12:48:54.817] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources, quark-emote-pack, KubeJS Resource Pack [assets]
+[17Sep2022 12:48:55.954] [modloading-worker-0/INFO] [quark/]: Loading Module Redstone Randomizer
+[17Sep2022 12:48:55.954] [modloading-worker-0/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[17Sep2022 12:48:55.955] [modloading-worker-0/INFO] [quark/]: Loading Module Obsidian Plate
+[17Sep2022 12:48:55.955] [modloading-worker-0/INFO] [quark/]: Loading Module Metal Buttons
+[17Sep2022 12:48:55.955] [modloading-worker-0/INFO] [quark/]: Loading Module Jukebox Automation
+[17Sep2022 12:48:55.957] [modloading-worker-0/INFO] [quark/]: Loading Module Iron Rod
+[17Sep2022 12:48:55.957] [modloading-worker-0/INFO] [quark/]: Loading Module Gravisand
+[17Sep2022 12:48:55.957] [modloading-worker-0/INFO] [quark/]: Loading Module Feeding Trough
+[17Sep2022 12:48:55.959] [modloading-worker-0/INFO] [quark/]: Loading Module Ender Watcher
+[17Sep2022 12:48:55.959] [modloading-worker-0/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[17Sep2022 12:48:55.959] [modloading-worker-0/INFO] [quark/]: Loading Module Chute
+[17Sep2022 12:48:55.960] [modloading-worker-0/INFO] [quark/]: Loading Module Chains Connect Blocks
+[17Sep2022 12:48:55.960] [modloading-worker-0/INFO] [quark/]: Loading Module Wooden Posts
+[17Sep2022 12:48:55.960] [modloading-worker-0/INFO] [quark/]: Loading Module Vertical Slabs
+[17Sep2022 12:48:55.960] [modloading-worker-0/INFO] [quark/]: Loading Module Vertical Planks
+[17Sep2022 12:48:55.960] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Ladders
+[17Sep2022 12:48:55.960] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Furnaces
+[17Sep2022 12:48:55.960] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Chests
+[17Sep2022 12:48:55.964] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Bookshelves
+[17Sep2022 12:48:55.965] [modloading-worker-0/INFO] [quark/]: Loading Module Thatch
+[17Sep2022 12:48:55.966] [modloading-worker-0/INFO] [quark/]: Loading Module Sturdy Stone
+[17Sep2022 12:48:55.966] [modloading-worker-0/INFO] [quark/]: Loading Module Stools
+[17Sep2022 12:48:55.979] [modloading-worker-0/INFO] [quark/]: Loading Module Soul Sandstone
+[17Sep2022 12:48:55.980] [modloading-worker-0/INFO] [quark/]: Loading Module Shingles
+[17Sep2022 12:48:55.980] [modloading-worker-0/INFO] [quark/]: Loading Module Shear Vines
+[17Sep2022 12:48:55.981] [modloading-worker-0/INFO] [quark/]: Loading Module Rope
+[17Sep2022 12:48:55.981] [modloading-worker-0/INFO] [quark/]: Loading Module Oriental Palette
+[17Sep2022 12:48:55.981] [modloading-worker-0/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[17Sep2022 12:48:55.981] [modloading-worker-0/INFO] [quark/]: Loading Module More Stone Variants
+[17Sep2022 12:48:55.982] [modloading-worker-0/INFO] [quark/]: Loading Module More Potted Plants
+[17Sep2022 12:48:55.982] [modloading-worker-0/INFO] [quark/]: Loading Module More Brick Types
+[17Sep2022 12:48:55.983] [modloading-worker-0/INFO] [quark/]: Loading Module Midori
+[17Sep2022 12:48:56.007] [modloading-worker-0/INFO] [quark/]: Loading Module Leaf Carpet
+[17Sep2022 12:48:56.008] [modloading-worker-0/INFO] [quark/]: Loading Module Industrial Palette
+[17Sep2022 12:48:56.008] [modloading-worker-0/INFO] [quark/]: Loading Module Hedges
+[17Sep2022 12:48:56.008] [modloading-worker-0/INFO] [quark/]: Loading Module Grate
+[17Sep2022 12:48:56.009] [modloading-worker-0/INFO] [quark/]: Loading Module Gold Bars
+[17Sep2022 12:48:56.009] [modloading-worker-0/INFO] [quark/]: Loading Module Glass Item Frame
+[17Sep2022 12:48:56.009] [modloading-worker-0/INFO] [quark/]: Loading Module Framed Glass
+[17Sep2022 12:48:56.010] [modloading-worker-0/INFO] [quark/]: Loading Module Duskbound Blocks
+[17Sep2022 12:48:56.010] [modloading-worker-0/INFO] [quark/]: Loading Module Compressed Blocks
+[17Sep2022 12:48:56.010] [modloading-worker-0/INFO] [quark/]: Loading Module Celebratory Lamps
+[17Sep2022 12:48:56.013] [modloading-worker-0/INFO] [quark/]: Loading Module Quick Armor Swapping
+[17Sep2022 12:48:56.018] [modloading-worker-0/INFO] [quark/]: Loading Module Item Sharing
+[17Sep2022 12:48:56.019] [modloading-worker-0/INFO] [quark/]: Loading Module Inventory Sorting
+[17Sep2022 12:48:56.019] [modloading-worker-0/INFO] [quark/]: Loading Module Hotbar Changer
+[17Sep2022 12:48:56.021] [modloading-worker-0/INFO] [quark/]: Loading Module Expanded Item Interactions
+[17Sep2022 12:48:56.024] [modloading-worker-0/INFO] [quark/]: Loading Module Easy Transfering
+[17Sep2022 12:48:56.024] [modloading-worker-0/INFO] [quark/]: Loading Module Chests In Boats
+[17Sep2022 12:48:56.028] [modloading-worker-0/INFO] [quark/]: Loading Module Trowel
+[17Sep2022 12:48:56.028] [modloading-worker-0/INFO] [quark/]: Loading Module Slime In A Bucket
+[17Sep2022 12:48:56.034] [modloading-worker-0/INFO] [quark/]: Loading Module Seed Pouch
+[17Sep2022 12:48:56.038] [modloading-worker-0/INFO] [quark/]: Loading Module Pickarang
+[17Sep2022 12:48:56.042] [modloading-worker-0/INFO] [quark/]: Loading Module Pathfinder Maps
+[17Sep2022 12:48:56.044] [modloading-worker-0/INFO] [quark/]: Loading Module Parrot Eggs
+[17Sep2022 12:48:56.047] [modloading-worker-0/INFO] [quark/]: Loading Module Endermosh Music Disc
+[17Sep2022 12:48:56.048] [modloading-worker-0/INFO] [quark/]: Loading Module Color Runes
+[17Sep2022 12:48:56.049] [modloading-worker-0/INFO] [quark/]: Loading Module Camera
+[17Sep2022 12:48:56.135] [modloading-worker-0/INFO] [quark/]: Loading Module Bundle Recipe
+[17Sep2022 12:48:56.136] [modloading-worker-0/INFO] [quark/]: Loading Module Bottled Cloud
+[17Sep2022 12:48:56.136] [modloading-worker-0/INFO] [quark/]: Loading Module Beacon Redirection
+[17Sep2022 12:48:56.137] [modloading-worker-0/INFO] [quark/]: Loading Module Ancient Tomes
+[17Sep2022 12:48:56.145] [modloading-worker-0/INFO] [quark/]: Loading Module Ambient Discs
+[17Sep2022 12:48:56.146] [modloading-worker-0/INFO] [quark/]: Loading Module Abacus
+[17Sep2022 12:48:56.147] [modloading-worker-0/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[17Sep2022 12:48:56.149] [modloading-worker-0/INFO] [quark/]: Loading Module Vexes Die With Their Masters
+[17Sep2022 12:48:56.150] [modloading-worker-0/INFO] [quark/]: Loading Module Utility Recipes
+[17Sep2022 12:48:56.152] [modloading-worker-0/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[17Sep2022 12:48:56.152] [modloading-worker-0/INFO] [quark/]: Loading Module Simple Harvest
+[17Sep2022 12:48:56.154] [modloading-worker-0/INFO] [quark/]: Loading Module Sign Editing
+[17Sep2022 12:48:56.154] [modloading-worker-0/INFO] [quark/]: Loading Module Replace Scaffolding
+[17Sep2022 12:48:56.155] [modloading-worker-0/INFO] [quark/]: Loading Module Reacharound Placing
+[17Sep2022 12:48:56.156] [modloading-worker-0/INFO] [quark/]: Loading Module Poison Potato Usage
+[17Sep2022 12:48:56.158] [modloading-worker-0/INFO] [quark/]: Loading Module Pig Litters
+[17Sep2022 12:48:56.163] [modloading-worker-0/INFO] [quark/]: Loading Module Pat The Dogs
+[17Sep2022 12:48:56.165] [modloading-worker-0/INFO] [quark/]: Loading Module Note Block Mob Sounds
+[17Sep2022 12:48:56.167] [modloading-worker-0/INFO] [quark/]: Loading Module More Banner Layers
+[17Sep2022 12:48:56.167] [modloading-worker-0/INFO] [quark/]: Loading Module Lock Rotation
+[17Sep2022 12:48:56.168] [modloading-worker-0/INFO] [quark/]: Loading Module Hoe Harvesting
+[17Sep2022 12:48:56.169] [modloading-worker-0/INFO] [quark/]: Loading Module Grab Chickens
+[17Sep2022 12:48:56.174] [modloading-worker-0/INFO] [quark/]: Loading Module Glass Shard
+[17Sep2022 12:48:56.175] [modloading-worker-0/INFO] [quark/]: Loading Module Enhanced Ladders
+[17Sep2022 12:48:56.178] [modloading-worker-0/INFO] [quark/]: Loading Module Emotes
+[17Sep2022 12:48:56.307] [modloading-worker-0/INFO] [quark/]: Loading Module Dragon Scales
+[17Sep2022 12:48:56.309] [modloading-worker-0/INFO] [quark/]: Loading Module Double Door Opening
+[17Sep2022 12:48:56.311] [modloading-worker-0/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[17Sep2022 12:48:56.313] [modloading-worker-0/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[17Sep2022 12:48:56.314] [modloading-worker-0/INFO] [quark/]: Loading Module Better Elytra Rocket
+[17Sep2022 12:48:56.316] [modloading-worker-0/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[17Sep2022 12:48:56.317] [modloading-worker-0/INFO] [quark/]: Loading Module Armed Armor Stands
+[17Sep2022 12:48:56.318] [modloading-worker-0/INFO] [quark/]: Loading Module Skull Pikes
+[17Sep2022 12:48:56.319] [modloading-worker-0/INFO] [quark/]: Loading Module Spiral Spires
+[17Sep2022 12:48:56.320] [modloading-worker-0/INFO] [quark/]: Loading Module Permafrost
+[17Sep2022 12:48:56.321] [modloading-worker-0/INFO] [quark/]: Loading Module No More Lava Pockets
+[17Sep2022 12:48:56.321] [modloading-worker-0/INFO] [quark/]: Loading Module New Stone Types
+[17Sep2022 12:48:56.322] [modloading-worker-0/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[17Sep2022 12:48:56.322] [modloading-worker-0/INFO] [quark/]: Loading Module Monster Box
+[17Sep2022 12:48:56.324] [modloading-worker-0/INFO] [quark/]: Loading Module Glimmering Weald
+[17Sep2022 12:48:56.324] [modloading-worker-0/INFO] [quark/]: Loading Module Fairy Rings
+[17Sep2022 12:48:56.324] [modloading-worker-0/INFO] [quark/]: Loading Module Corundum
+[17Sep2022 12:48:56.324] [modloading-worker-0/INFO] [quark/]: Loading Module Chorus Vegetation
+[17Sep2022 12:48:56.325] [modloading-worker-0/INFO] [quark/]: Loading Module Blossom Trees
+[17Sep2022 12:48:56.325] [modloading-worker-0/INFO] [quark/]: Loading Module Big Stone Clusters
+[17Sep2022 12:48:56.325] [modloading-worker-0/INFO] [quark/]: Loading Module Big Dungeon
+[17Sep2022 12:48:56.333] [modloading-worker-0/INFO] [quark/]: Loading Module Azalea Wood
+[17Sep2022 12:48:56.333] [modloading-worker-0/INFO] [quark/]: Loading Module Wraith
+[17Sep2022 12:48:56.333] [modloading-worker-0/INFO] [quark/]: Loading Module Toretoise
+[17Sep2022 12:48:56.334] [modloading-worker-0/INFO] [quark/]: Loading Module Stonelings
+[17Sep2022 12:48:56.334] [modloading-worker-0/INFO] [quark/]: Loading Module Shiba
+[17Sep2022 12:48:56.334] [modloading-worker-0/INFO] [quark/]: Loading Module Frogs
+[17Sep2022 12:48:56.335] [modloading-worker-0/INFO] [quark/]: Loading Module Foxhound
+[17Sep2022 12:48:56.336] [modloading-worker-0/INFO] [quark/]: Loading Module Forgotten
+[17Sep2022 12:48:56.338] [modloading-worker-0/INFO] [quark/]: Loading Module Crabs
+[17Sep2022 12:48:56.338] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Animal Textures
+[17Sep2022 12:48:56.340] [modloading-worker-0/INFO] [quark/]: Loading Module Uses For Curses
+[17Sep2022 12:48:56.341] [modloading-worker-0/INFO] [quark/]: Loading Module Usage Ticker
+[17Sep2022 12:48:56.345] [modloading-worker-0/INFO] [quark/]: Loading Module Soul Candles
+[17Sep2022 12:48:56.345] [modloading-worker-0/INFO] [quark/]: Loading Module Microcrafting Helper
+[17Sep2022 12:48:56.348] [modloading-worker-0/INFO] [quark/]: Loading Module Improved Tooltips
+[17Sep2022 12:48:56.351] [modloading-worker-0/INFO] [quark/]: Loading Module Greener Grass
+[17Sep2022 12:48:56.351] [modloading-worker-0/INFO] [quark/]: Loading Module Chest Searching
+[17Sep2022 12:48:56.353] [modloading-worker-0/INFO] [quark/]: Loading Module Back Button Keybind
+[17Sep2022 12:48:56.354] [modloading-worker-0/INFO] [quark/]: Loading Module Auto Walk Keybind
+[17Sep2022 12:48:56.356] [modloading-worker-0/INFO] [quark/]: Loading Module Zombie Villagers On Normal
+[17Sep2022 12:48:56.356] [modloading-worker-0/INFO] [quark/]: Loading Module Spawner Replacer
+[17Sep2022 12:48:56.356] [modloading-worker-0/INFO] [quark/]: Loading Module Overlay Shader
+[17Sep2022 12:48:56.357] [modloading-worker-0/INFO] [quark/]: Loading Module Narrator Readout
+[17Sep2022 12:48:56.357] [modloading-worker-0/INFO] [quark/]: Loading Module Game Nerfs
+[17Sep2022 12:48:56.357] [modloading-worker-0/INFO] [quark/]: Loading Module Enchantments Begone
+[17Sep2022 12:48:56.357] [modloading-worker-0/INFO] [quark/]: Loading Module Adjustable Chat
+[17Sep2022 12:48:56.358] [modloading-worker-0/INFO] [quark/]: Loading Module Totem Of Holding
+[17Sep2022 12:48:56.358] [modloading-worker-0/INFO] [quark/]: Loading Module Tiny Potato
+[17Sep2022 12:48:56.358] [modloading-worker-0/INFO] [quark/]: Loading Module Pipes
+[17Sep2022 12:48:56.358] [modloading-worker-0/INFO] [quark/]: Loading Module Matrix Enchanting
+[17Sep2022 12:48:56.358] [modloading-worker-0/INFO] [quark/]: Loading Module Magnets
+[17Sep2022 12:48:56.358] [modloading-worker-0/INFO] [quark/]: Loading Module Crate
+[17Sep2022 12:48:56.358] [modloading-worker-0/INFO] [quark/]: Loading Module Backpack
+[17Sep2022 12:48:56.359] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
+[17Sep2022 12:48:56.493] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED_CLIENT
+[17Sep2022 12:49:11.956] [Worker-Main-4/INFO] [quark/]: Dispatching Module Step TEXTURE_STITCH
+[17Sep2022 12:49:11.975] [Worker-Main-5/INFO] [quark/]: Dispatching Module Step TEXTURE_STITCH
+[17Sep2022 12:49:11.988] [Worker-Main-6/INFO] [quark/]: Dispatching Module Step TEXTURE_STITCH
+[17Sep2022 12:49:13.585] [Worker-Main-6/INFO] [quark/]: Dispatching Module Step TEXTURE_STITCH
+[17Sep2022 12:49:14.403] [Worker-Main-7/INFO] [com.betterfpsdist.BetterfpsdistMod/]: betterfpsdist mod initialized
+[17Sep2022 12:49:14.418] [Worker-Main-7/INFO] [net.dries007.tfc.TerraFirmaCraft/]: TFC Common Setup
+[17Sep2022 12:49:14.767] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[17Sep2022 12:49:14.835] [Worker-Main-3/INFO] [quark/]: Dispatching Module Step MODEL_REGISTRY
+[17Sep2022 12:49:14.898] [Worker-Main-7/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
+[17Sep2022 12:49:14.904] [Worker-Main-7/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED_CLIENT
+[17Sep2022 12:49:14.908] [Worker-Main-7/INFO] [quark/]: Dispatching Module Step SETUP
+[17Sep2022 12:49:15.989] [Worker-Main-4/INFO] [quark/]: Dispatching Module Step SETUP_CLIENT
+[17Sep2022 12:49:16.455] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 40.1.80 Target: null
+[17Sep2022 12:49:53.553] [Worker-Main-3/INFO] [quark/]: Dispatching Module Step TEXTURE_STITCH
+[17Sep2022 12:50:11.572] [Worker-Main-3/INFO] [quark/]: Dispatching Module Step TEXTURE_STITCH
+[17Sep2022 12:50:11.694] [Worker-Main-3/INFO] [quark/]: Dispatching Module Step TEXTURE_STITCH
+[17Sep2022 12:50:12.057] [Worker-Main-3/INFO] [quark/]: Dispatching Module Step TEXTURE_STITCH
+[17Sep2022 12:50:12.445] [Worker-Main-3/INFO] [quark/]: Dispatching Module Step TEXTURE_STITCH
+[17Sep2022 12:50:12.716] [Worker-Main-3/INFO] [quark/]: Dispatching Module Step TEXTURE_STITCH
+[17Sep2022 12:50:12.841] [Worker-Main-3/INFO] [quark/]: Dispatching Module Step TEXTURE_STITCH
+[17Sep2022 12:50:13.424] [Worker-Main-7/INFO] [quark/]: Dispatching Module Step LOAD_COMPLETE
+[17set.2022 12:50:29.922] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on CABLE Input (VB-Audio Virtual Cable)
+[17set.2022 12:50:29.930] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[17set.2022 12:50:30.803] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[17set.2022 12:50:32.207] [Render thread/INFO] [quark/]: Dispatching Module Step POST_TEXTURE_STITCH
+[17set.2022 12:50:32.208] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/signs.png-atlas
+[17set.2022 12:50:32.270] [Render thread/INFO] [quark/]: Dispatching Module Step POST_TEXTURE_STITCH
+[17set.2022 12:50:32.271] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[17set.2022 12:50:32.296] [Render thread/INFO] [quark/]: Dispatching Module Step POST_TEXTURE_STITCH
+[17set.2022 12:50:32.297] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[17set.2022 12:50:32.315] [Render thread/INFO] [quark/]: Dispatching Module Step POST_TEXTURE_STITCH
+[17set.2022 12:50:32.315] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/chest.png-atlas
+[17set.2022 12:50:32.399] [Render thread/INFO] [quark/]: Dispatching Module Step POST_TEXTURE_STITCH
+[17set.2022 12:50:32.399] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[17set.2022 12:50:32.404] [Render thread/INFO] [quark/]: Dispatching Module Step POST_TEXTURE_STITCH
+[17set.2022 12:50:32.405] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[17set.2022 12:50:32.413] [Render thread/INFO] [quark/]: Dispatching Module Step POST_TEXTURE_STITCH
+[17set.2022 12:50:42.015] [Render thread/INFO] [quark/]: Dispatching Module Step MODEL_BAKE
+[17set.2022 12:50:43.832] [Render thread/INFO] [quark/]: Dispatching Module Step MODEL_LAYERS
+[17set.2022 12:50:48.924] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[17set.2022 12:50:48.972] [Render thread/INFO] [quark/]: Dispatching Module Step POST_TEXTURE_STITCH
+[17set.2022 12:50:48.973] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[17set.2022 12:50:48.993] [Render thread/INFO] [quark/]: Dispatching Module Step POST_TEXTURE_STITCH
+[17set.2022 12:50:48.995] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[17set.2022 12:50:49.006] [Render thread/INFO] [quark/]: Dispatching Module Step POST_TEXTURE_STITCH
+[17set.2022 12:50:49.057] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[17set.2022 12:50:49.059] [Render thread/INFO] [quark/]: Dispatching Module Step POST_TEXTURE_STITCH
+[17set.2022 12:50:49.061] [Render thread/INFO] [patchouli/]: BookContentResourceListenerLoader preloaded 0 jsons
+[17set.2022 12:50:49.063] [Render thread/INFO] [patchouli/]: Not reloading resource pack-based books as client world is missing
+[17set.2022 12:50:49.645] [Render thread/INFO] [quark/]: Dispatching Module Step FIRST_CLIENT_TICK
+[17set.2022 12:51:39.884] [Render thread/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+inventoryprofilesnext (version 1.7.2 -> MISSING)
+Things may not work well.
+[17set.2022 12:51:51.939] [Render thread/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:inventoryprofilesnext
+[17set.2022 12:51:52.795] [Render thread/INFO] [KubeJS Server/]: Hello, World! (You will see this line every time server resources reload)
+[17set.2022 12:51:52.796] [Render thread/INFO] [KubeJS Server/]: Loaded script server_scripts:script.js in 0.006 s
+[17set.2022 12:51:52.796] [Render thread/INFO] [KubeJS Server/]: Loaded 1/1 KubeJS server scripts in 0.091 s
+[17set.2022 12:51:52.798] [Render thread/INFO] [KubeJS Server/]: Scripts loaded
+[17set.2022 12:51:52.876] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type kubejs:shaped
+[17set.2022 12:51:52.877] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type kubejs:shapeless
+[17set.2022 12:51:52.878] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:crafting_shaped
+[17set.2022 12:51:52.878] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:crafting_shapeless
+[17set.2022 12:51:52.879] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:stonecutting
+[17set.2022 12:51:52.882] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smelting
+[17set.2022 12:51:52.883] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:blasting
+[17set.2022 12:51:52.883] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smoking
+[17set.2022 12:51:52.884] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:campfire_cooking
+[17set.2022 12:51:52.885] [Render thread/INFO] [KubeJS/]: Registered custom recipe handler for type minecraft:smithing
+[17set.2022 12:51:52.893] [Render thread/INFO] [KubeJS Server/]: Scanning recipes...
+[17set.2022 12:52:02.846] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17set.2022 12:52:02.848] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17set.2022 12:52:02.860] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17set.2022 12:52:02.862] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[17set.2022 12:52:02.863] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[17set.2022 12:52:02.909] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [ftbteams, info, server_id] and [ftbteams, info, team] with inputs: [server_id]
+[17set.2022 12:52:02.911] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [ftbchunks, admin, view_loaded_chunks, reset] and [ftbchunks, admin, view_loaded_chunks, dimension] with inputs: [reset]
+[17set.2022 12:52:51.561] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Loaded 28 metal(s).
+[17set.2022 12:52:51.748] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:melon[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.748] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:melon[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.856] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:golden_hoe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.856] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:golden_hoe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.869] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:netherite_hoe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.870] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:netherite_hoe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.931] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:golden_pickaxe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.932] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:golden_pickaxe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.937] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:rail[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.937] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:rail[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.937] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:diamond_sword[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.938] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:diamond_sword[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.951] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:wooden_axe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.952] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:wooden_axe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.953] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:diamond_axe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.953] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:diamond_axe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.961] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:torch[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.961] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:torch[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.962] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:netherite_chestplate[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.962] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:netherite_chestplate[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.971] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:diamond_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.971] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:diamond_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.974] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:compass[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:51.974] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:compass[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.067] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:iron_axe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.068] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:iron_axe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.090] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:flower_pot[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.090] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:flower_pot[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.095] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:golden_boots[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.095] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:golden_boots[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.144] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:diamond_shovel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.144] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:diamond_shovel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.147] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:golden_shovel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.148] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:golden_shovel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.149] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:diamond_chestplate[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.150] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:diamond_chestplate[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.170] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:netherite_sword[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.170] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:netherite_sword[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.175] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:lapis_lazuli[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.175] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:lapis_lazuli[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.197] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:iron_pickaxe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.198] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:iron_pickaxe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.227] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:iron_leggings[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.227] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:iron_leggings[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.228] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:mushroom_stew[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.228] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:mushroom_stew[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.231] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:iron_chestplate[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.231] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:iron_chestplate[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.234] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:clock[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.234] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:clock[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.235] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:diamond_leggings[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.235] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:diamond_leggings[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.240] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:wooden_shovel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.283] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:wooden_shovel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.286] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:netherite_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.287] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:netherite_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.291] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:netherite_leggings[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.291] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:netherite_leggings[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.292] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:netherite_shovel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.292] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:netherite_shovel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.295] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:jack_o_lantern[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.295] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:jack_o_lantern[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.298] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:turtle_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.298] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:turtle_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.310] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:bone_meal[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.310] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:bone_meal[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.316] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:diamond_boots[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.316] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:diamond_boots[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.319] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:pumpkin_pie[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.320] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:pumpkin_pie[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.349] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:netherite_axe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.350] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:netherite_axe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.353] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:soul_torch[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.354] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:soul_torch[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.362] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:iron_sword[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.363] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:iron_sword[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.402] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:sticky_piston[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.403] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:sticky_piston[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.406] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:white_wool_from_string[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.407] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:white_wool_from_string[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.413] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:netherite_boots[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.414] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:netherite_boots[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.465] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:leather_boots[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.465] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:leather_boots[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.546] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:iron_shovel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.546] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:iron_shovel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.555] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:leather_horse_armor[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.555] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:leather_horse_armor[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.619] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:melon_seeds[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.619] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:melon_seeds[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.634] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:enchanting_table[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.635] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:enchanting_table[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.646] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:leather_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.647] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:leather_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.664] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:tinted_glass[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.666] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:tinted_glass[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.676] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:iron_hoe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.677] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:iron_hoe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.720] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:wooden_hoe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.721] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:wooden_hoe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.792] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:map[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.793] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:map[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.793] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:crafting_table[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.794] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:crafting_table[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.794] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:anvil[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.794] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:anvil[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.844] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:composter[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.845] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:composter[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.982] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:diamond_pickaxe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.982] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:diamond_pickaxe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.986] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:suspicious_stew[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:52.986] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:suspicious_stew[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.043] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:wooden_pickaxe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.044] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:wooden_pickaxe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.046] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:golden_axe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.046] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:golden_axe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.051] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:barrel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.051] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:barrel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.085] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:iron_boots[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.086] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:iron_boots[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.090] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:golden_chestplate[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.090] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:golden_chestplate[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.108] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:painting[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.109] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:painting[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.122] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:bricks[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.123] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:bricks[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.125] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:diamond_hoe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.125] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:diamond_hoe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.148] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:leather_chestplate[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.149] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:leather_chestplate[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.234] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:leather_leggings[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.235] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:leather_leggings[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.243] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:bowl[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.243] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:bowl[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.264] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:iron_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.264] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:iron_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.271] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:golden_helmet[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.272] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:golden_helmet[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.275] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:netherite_pickaxe[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.275] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:netherite_pickaxe[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.278] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:wooden_sword[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.278] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:wooden_sword[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.357] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:bucket[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.357] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:bucket[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.358] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:rabbit_stew_from_brown_mushroom[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.358] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:rabbit_stew_from_brown_mushroom[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.382] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:flint_and_steel[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.382] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:flint_and_steel[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.385] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:golden_sword[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.386] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:golden_sword[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.387] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:hay_block[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.388] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:hay_block[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.391] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:rabbit_stew_from_red_mushroom[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.391] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:rabbit_stew_from_red_mushroom[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.395] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:blaze_rod[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.395] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:blaze_rod[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.396] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:beetroot_soup[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.396] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:beetroot_soup[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.397] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:golden_leggings[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.397] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:golden_leggings[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.399] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:wheat[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.399] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:wheat[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.444] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe 'minecraft:campfire[unknown:type]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.445] [Render thread/WARN] [KubeJS Server/]: Failed to parse recipe minecraft:campfire[unknown:type]: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[17set.2022 12:52:53.453] [Render thread/INFO] [KubeJS Server/]: Found 7137 recipes and 0 failed recipes in 1.884 s
+[17set.2022 12:52:53.462] [Render thread/INFO] [KubeJS Server/]: Posted recipe events in 4.847 ms
+[17set.2022 12:52:54.045] [Render thread/INFO] [KubeJS Server/]: Modified & removed recipes in 582.4 ms
+[17set.2022 12:52:54.046] [Render thread/INFO] [KubeJS Server/]: Added recipes in 582.5 ?s
+[17set.2022 12:52:54.068] [Render thread/INFO] [KubeJS Server/]: Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
+[17set.2022 12:53:01.325] [Render thread/INFO] [quark/]: [Automatic Recipe Unlock] Removed 1230 recipe advancements
+[17set.2022 12:53:01.450] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2286 advancements
+[17set.2022 12:53:01.518] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Loaded 24 fuel(s).
+[17set.2022 12:53:01.531] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Loaded 4 drinkable(s).
+[17set.2022 12:53:01.531] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Loaded 19 support(s).
+[17set.2022 12:53:01.532] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Loaded 3 lamp_fuel(s).
+[17set.2022 12:53:01.532] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Loaded 9 fertilizer(s).
+[17set.2022 12:53:01.533] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Loaded 34 item size(s).
+[17set.2022 12:53:01.541] [Render thread/INFO] [net.dries007.tfc.util.RegisteredDataManager/]: Loaded 40 / 40 climate range(s).
+[17set.2022 12:53:01.579] [Render thread/INFO] [net.dries007.tfc.util.RegisteredDataManager/]: Loaded 40 / 40 fauna(s).
+[17set.2022 12:53:01.594] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Loaded 572 item heat(s).
+[17set.2022 12:53:01.595] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Loaded 125 food(s).
+[17set.2022 12:53:01.595] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Loaded 3 entity_damage_resistances(s).
+[17set.2022 12:53:01.596] [Render thread/WARN] [net.dries007.tfc.TerraFirmaCraft/]: Experimental world gen... dragons or some such.. blah blah.
+[17set.2022 12:53:10.209] [Render thread/INFO] [net.dries007.tfc.util.Helpers/]: Successfully captured server recipe manager
+[17set.2022 12:53:10.263] [Render thread/INFO] [net.dries007.tfc.common.capabilities.size.ItemSizeManager/]: Editing item stack sizes: found 5671 editable of 6232 total.
+[17set.2022 12:53:10.287] [Render thread/INFO] [net.dries007.tfc.util.Helpers/]: Successfully captured server recipe manager
+[17set.2022 12:53:10.548] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17Sep2022 12:53:10.827] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.18.2
+[17Sep2022 12:53:10.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[17Sep2022 12:53:11.484] [Server thread/INFO] [FTB Teams/]: Loaded FTB Teams - 1 known players
+[17Sep2022 12:53:12.488] [Server thread/INFO] [net.dries007.tfc.ForgeEventHandler/]: Updating TFC Relevant Game Rules for level minecraft:overworld.
+[17Sep2022 12:53:12.489] [Server thread/INFO] [net.dries007.tfc.common.capabilities.size.ItemSizeManager/]: Editing item stack sizes: found 5671 editable of 6232 total.
+[17Sep2022 12:53:12.673] [Server thread/INFO] [net.dries007.tfc.ForgeEventHandler/]: Updating TFC Relevant Game Rules for level minecraft:the_end.
+[17Sep2022 12:53:12.876] [Server thread/INFO] [net.dries007.tfc.ForgeEventHandler/]: Updating TFC Relevant Game Rules for level minecraft:the_nether.
+[17Sep2022 12:53:12.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[17set.2022 12:53:16.650] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17set.2022 12:53:16.855] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17set.2022 12:53:16.856] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17set.2022 12:53:16.995] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17set.2022 12:53:16.995] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17set.2022 12:53:16.995] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17set.2022 12:53:16.995] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17set.2022 12:53:16.995] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17set.2022 12:53:17.213] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17set.2022 12:53:17.886] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17set.2022 12:53:18.298] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17set.2022 12:53:18.801] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17set.2022 12:53:19.184] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17set.2022 12:53:19.622] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[17set.2022 12:53:20.210] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[17set.2022 12:53:20.800] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[17set.2022 12:53:21.129] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[17set.2022 12:53:21.706] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[17set.2022 12:53:22.119] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[17set.2022 12:53:22.702] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[17set.2022 12:53:23.258] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[17set.2022 12:53:23.772] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
+[17set.2022 12:53:24.290] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[17set.2022 12:53:24.753] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
+[17set.2022 12:53:25.164] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 95%
+[17set.2022 12:53:25.727] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[17Sep2022 12:53:26.839] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[17set.2022 12:53:26.863] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 13746 ms
+[17Sep2022 12:53:27.854] [Server thread/INFO] [FTB Quests/]: Loading quests from C:\Users\Usuario\Desktop\joojs\mine\modpackzin\config\ftbquests\quests
+[17Sep2022 12:53:27.982] [Server thread/INFO] [FTB Quests/]: Loaded 2 chapter groups, 1 chapters, 15 quests, 0 reward tables
+[17Sep2022 12:53:28.150] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[17Sep2022 12:53:29.678] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[17Sep2022 12:53:29.684] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[17set.2022 12:53:30.865] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[17Sep2022 12:53:33.708] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[17Sep2022 12:53:35.399] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@7916fc27
+[17Sep2022 12:53:36.095] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: KitoWasHere[local:E:8c1f7a43] logged in with entity id 1 at (-2.5, 56.0, -21.5)
+[17Sep2022 12:53:36.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KitoWasHere joined the game
+[17Sep2022 12:53:37.031] [Server thread/INFO] [net.dries007.tfc.util.calendar.CalendarEventHandler/]: Player Logged In - Checking for Calendar Updates.
+[17Sep2022 12:53:37.032] [Server thread/INFO] [net.dries007.tfc.util.calendar.Calendar/]: Reverted doDaylightCycle to true as players are logged in.
+[17Sep2022 12:53:37.390] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3639ms or 72 ticks behind
+[17set.2022 12:53:37.833] [Render thread/INFO] [ChunkBuilder/]: Started 1 worker threads
+[17set.2022 12:53:38.695] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggedInEvent
+[17set.2022 12:53:38.696] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[17set.2022 12:53:38.866] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Ignored metal(s) sync from logical server
+[17set.2022 12:53:38.870] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Ignored fuel(s) sync from logical server
+[17set.2022 12:53:38.870] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Ignored fertilizer(s) sync from logical server
+[17set.2022 12:53:38.902] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Ignored item heat(s) sync from logical server
+[17set.2022 12:53:38.906] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Ignored food(s) sync from logical server
+[17set.2022 12:53:38.914] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Ignored item size(s) sync from logical server
+[17set.2022 12:53:38.914] [Render thread/INFO] [net.dries007.tfc.util.RegisteredDataManager/]: Ignored climate range(s) sync from logical server
+[17set.2022 12:53:39.119] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Ignored drinkable(s) sync from logical server
+[17set.2022 12:53:39.119] [Render thread/INFO] [net.dries007.tfc.util.DataManager/]: Ignored lamp_fuel(s) sync from logical server
+[17set.2022 12:53:41.588] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[17set.2022 12:53:42.035] [Render thread/INFO] [net.dries007.tfc.common.capabilities.size.ItemSizeManager/]: Editing item stack sizes: found 5671 editable of 6232 total.
+[17set.2022 12:53:44.322] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[17set.2022 12:53:44.323] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[17set.2022 12:53:44.324] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI...
+[17set.2022 12:53:44.508] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:minecraft ...
+[17set.2022 12:53:44.510] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:minecraft took 2.175 ms
+[17set.2022 12:53:44.510] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: farmersdelight:jei_plugin ...
+[17set.2022 12:53:44.511] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: farmersdelight:jei_plugin took 16.40 ?s
+[17set.2022 12:53:44.511] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: sophisticatedbackpacks:default ...
+[17set.2022 12:53:44.511] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: sophisticatedbackpacks:default took 338.2 ?s
+[17set.2022 12:53:44.511] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: ftblibrary:jei ...
+[17set.2022 12:53:44.511] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: ftblibrary:jei took 10.50 ?s
+[17set.2022 12:53:44.512] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:debug ...
+[17set.2022 12:53:44.512] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:debug took 14.30 ?s
+[17set.2022 12:53:44.512] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:forge ...
+[17set.2022 12:53:44.513] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:forge took 13.00 ?s
+[17set.2022 12:53:44.513] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: kubejs:jei ...
+[17set.2022 12:53:44.534] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: kubejs:jei took 21.20 ms
+[17set.2022 12:53:44.534] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: ftbquests:jei ...
+[17set.2022 12:53:44.535] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: ftbquests:jei took 376.4 ?s
+[17set.2022 12:53:44.535] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: tfc:jei ...
+[17set.2022 12:53:44.535] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: tfc:jei took 19.70 ?s
+[17set.2022 12:53:44.536] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: sophisticatedcore:default ...
+[17set.2022 12:53:44.536] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: sophisticatedcore:default took 36.00 ?s
+[17set.2022 12:53:44.536] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: patchouli:patchouli ...
+[17set.2022 12:53:44.539] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: patchouli:patchouli took 1.816 ms
+[17set.2022 12:53:44.540] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: quark:quark ...
+[17set.2022 12:53:44.653] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: quark:quark took 112.4 ms
+[17set.2022 12:53:44.653] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:internal ...
+[17set.2022 12:53:44.654] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:internal took 18.80 ?s
+[17set.2022 12:53:44.655] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: jei:minecraft ...
+[17set.2022 12:53:44.655] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: jei:minecraft took 49.20 ?s
+[17set.2022 12:53:44.655] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: farmersdelight:jei_plugin ...
+[17set.2022 12:53:44.655] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: farmersdelight:jei_plugin took 12.90 ?s
+[17set.2022 12:53:44.655] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: sophisticatedbackpacks:default ...
+[17set.2022 12:53:44.656] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: sophisticatedbackpacks:default took 17.90 ?s
+[17set.2022 12:53:44.656] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: ftblibrary:jei ...
+[17set.2022 12:53:44.657] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: ftblibrary:jei took 12.90 ?s
+[17set.2022 12:53:44.657] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: jei:debug ...
+[17set.2022 12:53:44.922] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: jei:debug took 265.1 ms
+[17set.2022 12:53:44.923] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: jei:forge ...
+[17set.2022 12:53:44.923] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: jei:forge took 20.20 ?s
+[17set.2022 12:53:44.923] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: kubejs:jei ...
+[17set.2022 12:53:44.923] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: kubejs:jei took 14.20 ?s
+[17set.2022 12:53:44.924] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: ftbquests:jei ...
+[17set.2022 12:53:44.927] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: ftbquests:jei took 26.00 ?s
+[17set.2022 12:53:44.927] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: tfc:jei ...
+[17set.2022 12:53:44.927] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: tfc:jei took 13.20 ?s
+[17set.2022 12:53:44.928] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: sophisticatedcore:default ...
+[17set.2022 12:53:44.928] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: sophisticatedcore:default took 12.60 ?s
+[17set.2022 12:53:44.928] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: patchouli:patchouli ...
+[17set.2022 12:53:44.928] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: patchouli:patchouli took 268.8 ?s
+[17set.2022 12:53:44.929] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: quark:quark ...
+[17set.2022 12:53:44.929] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: quark:quark took 21.30 ?s
+[17set.2022 12:53:44.929] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: jei:internal ...
+[17set.2022 12:53:44.929] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: jei:internal took 8.600 ?s
+[17set.2022 12:53:44.931] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:minecraft ...
+[17set.2022 12:53:45.371] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:minecraft took 438.7 ms
+[17set.2022 12:53:45.371] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: farmersdelight:jei_plugin ...
+[17set.2022 12:53:45.371] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: farmersdelight:jei_plugin took 12.00 ?s
+[17set.2022 12:53:45.371] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: sophisticatedbackpacks:default ...
+[17set.2022 12:53:45.372] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: sophisticatedbackpacks:default took 322.7 ?s
+[17set.2022 12:53:45.372] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: ftblibrary:jei ...
+[17set.2022 12:53:45.372] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: ftblibrary:jei took 10.80 ?s
+[17set.2022 12:53:45.372] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:debug ...
+[17set.2022 12:53:45.373] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:debug took 196.8 ?s
+[17set.2022 12:53:45.373] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:forge ...
+[17set.2022 12:53:45.447] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:forge took 73.43 ms
+[17set.2022 12:53:45.447] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: kubejs:jei ...
+[17set.2022 12:53:45.447] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: kubejs:jei took 9.000 ?s
+[17set.2022 12:53:45.447] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: ftbquests:jei ...
+[17set.2022 12:53:45.447] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: ftbquests:jei took 7.800 ?s
+[17set.2022 12:53:45.447] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: tfc:jei ...
+[17set.2022 12:53:45.448] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: tfc:jei took 7.800 ?s
+[17set.2022 12:53:45.448] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: sophisticatedcore:default ...
+[17set.2022 12:53:45.448] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: sophisticatedcore:default took 6.600 ?s
+[17set.2022 12:53:45.448] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: patchouli:patchouli ...
+[17set.2022 12:53:45.448] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: patchouli:patchouli took 6.300 ?s
+[17set.2022 12:53:45.448] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: quark:quark ...
+[17set.2022 12:53:45.448] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: quark:quark took 6.400 ?s
+[17set.2022 12:53:45.448] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:internal ...
+[17set.2022 12:53:45.449] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:internal took 6.200 ?s
+[17set.2022 12:53:45.452] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list...
+[17set.2022 12:53:45.471] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list took 18.08 ms
+[17set.2022 12:53:45.472] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter...
+[17set.2022 12:53:45.703] [Render thread/INFO] [mezz.jei.ingredients.IngredientFilter/]: Adding 6595 ingredients
+[17set.2022 12:53:48.587] [Render thread/INFO] [mezz.jei.ingredients.IngredientFilter/]: Added 6595 ingredients
+[17set.2022 12:53:48.588] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter took 3.116 s
+[17set.2022 12:53:48.599] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building bookmarks...
+[17set.2022 12:53:48.675] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building bookmarks took 74.91 ms
+[17set.2022 12:53:48.676] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: jei:minecraft ...
+[17set.2022 12:53:48.778] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: jei:minecraft took 101.7 ms
+[17set.2022 12:53:48.778] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: farmersdelight:jei_plugin ...
+[17set.2022 12:53:48.844] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: farmersdelight:jei_plugin took 64.93 ms
+[17set.2022 12:53:48.844] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: sophisticatedbackpacks:default ...
+[17set.2022 12:53:48.844] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: sophisticatedbackpacks:default took 13.60 ?s
+[17set.2022 12:53:48.844] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: ftblibrary:jei ...
+[17set.2022 12:53:48.844] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: ftblibrary:jei took 10.10 ?s
+[17set.2022 12:53:48.844] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: jei:debug ...
+[17set.2022 12:53:48.845] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: jei:debug took 15.80 ?s
+[17set.2022 12:53:48.845] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: jei:forge ...
+[17set.2022 12:53:48.845] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: jei:forge took 6.900 ?s
+[17set.2022 12:53:48.845] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: kubejs:jei ...
+[17set.2022 12:53:48.845] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: kubejs:jei took 7.000 ?s
+[17set.2022 12:53:48.845] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: ftbquests:jei ...
+[17set.2022 12:53:48.845] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: ftbquests:jei took 7.800 ?s
+[17set.2022 12:53:48.845] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: tfc:jei ...
+[17set.2022 12:53:48.984] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: tfc:jei took 138.4 ms
+[17set.2022 12:53:48.984] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: sophisticatedcore:default ...
+[17set.2022 12:53:48.984] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: sophisticatedcore:default took 11.60 ?s
+[17set.2022 12:53:48.984] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: patchouli:patchouli ...
+[17set.2022 12:53:48.984] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: patchouli:patchouli took 8.200 ?s
+[17set.2022 12:53:48.984] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: quark:quark ...
+[17set.2022 12:53:48.984] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: quark:quark took 7.500 ?s
+[17set.2022 12:53:48.985] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: jei:internal ...
+[17set.2022 12:53:48.986] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: jei:internal took 1.696 ms
+[17set.2022 12:53:48.987] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft ...
+[17set.2022 12:53:48.991] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft took 3.587 ms
+[17set.2022 12:53:48.991] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: farmersdelight:jei_plugin ...
+[17set.2022 12:53:48.992] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: farmersdelight:jei_plugin took 21.80 ?s
+[17set.2022 12:53:48.994] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: sophisticatedbackpacks:default ...
+[17set.2022 12:53:48.994] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: sophisticatedbackpacks:default took 17.20 ?s
+[17set.2022 12:53:48.994] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: ftblibrary:jei ...
+[17set.2022 12:53:48.994] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: ftblibrary:jei took 10.40 ?s
+[17set.2022 12:53:48.994] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:debug ...
+[17set.2022 12:53:48.994] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:debug took 9.000 ?s
+[17set.2022 12:53:48.994] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:forge ...
+[17set.2022 12:53:48.994] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:forge took 7.300 ?s
+[17set.2022 12:53:48.994] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: kubejs:jei ...
+[17set.2022 12:53:48.995] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: kubejs:jei took 6.600 ?s
+[17set.2022 12:53:48.995] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: ftbquests:jei ...
+[17set.2022 12:53:48.995] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: ftbquests:jei took 9.000 ?s
+[17set.2022 12:53:48.995] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: tfc:jei ...
+[17set.2022 12:53:48.997] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: tfc:jei took 1.601 ms
+[17set.2022 12:53:48.997] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: sophisticatedcore:default ...
+[17set.2022 12:53:48.997] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: sophisticatedcore:default took 11.90 ?s
+[17set.2022 12:53:48.997] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: patchouli:patchouli ...
+[17set.2022 12:53:48.997] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: patchouli:patchouli took 13.20 ?s
+[17set.2022 12:53:48.998] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: quark:quark ...
+[17set.2022 12:53:49.043] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: quark:quark took 45.08 ms
+[17set.2022 12:53:49.043] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:internal ...
+[17set.2022 12:53:49.043] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:internal took 10.90 ?s
+[17set.2022 12:53:49.046] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft ...
+[17set.2022 12:53:49.047] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft took 422.4 ?s
+[17set.2022 12:53:49.047] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: farmersdelight:jei_plugin ...
+[17set.2022 12:53:49.048] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: farmersdelight:jei_plugin took 65.10 ?s
+[17set.2022 12:53:49.048] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: sophisticatedbackpacks:default ...
+[17set.2022 12:53:49.048] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: sophisticatedbackpacks:default took 33.40 ?s
+[17set.2022 12:53:49.048] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: ftblibrary:jei ...
+[17set.2022 12:53:49.048] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: ftblibrary:jei took 8.200 ?s
+[17set.2022 12:53:49.048] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:debug ...
+[17set.2022 12:53:49.048] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:debug took 10.70 ?s
+[17set.2022 12:53:49.049] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:forge ...
+[17set.2022 12:53:49.049] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:forge took 13.50 ?s
+[17set.2022 12:53:49.050] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: kubejs:jei ...
+[17set.2022 12:53:49.050] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: kubejs:jei took 6.300 ?s
+[17set.2022 12:53:49.050] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: ftbquests:jei ...
+[17set.2022 12:53:49.050] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: ftbquests:jei took 6.100 ?s
+[17set.2022 12:53:49.050] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: tfc:jei ...
+[17set.2022 12:53:49.053] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: tfc:jei took 2.939 ms
+[17set.2022 12:53:49.053] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: sophisticatedcore:default ...
+[17set.2022 12:53:49.054] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: sophisticatedcore:default took 9.200 ?s
+[17set.2022 12:53:49.054] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: patchouli:patchouli ...
+[17set.2022 12:53:49.054] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: patchouli:patchouli took 11.10 ?s
+[17set.2022 12:53:49.054] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: quark:quark ...
+[17set.2022 12:53:49.055] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: quark:quark took 63.30 ?s
+[17set.2022 12:53:49.055] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:internal ...
+[17set.2022 12:53:49.055] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:internal took 8.400 ?s
+[17set.2022 12:53:49.057] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:minecraft ...
+[17set.2022 12:53:49.058] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:minecraft took 130.6 ?s
+[17set.2022 12:53:49.058] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: farmersdelight:jei_plugin ...
+[17set.2022 12:53:49.058] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: farmersdelight:jei_plugin took 14.90 ?s
+[17set.2022 12:53:49.058] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: sophisticatedbackpacks:default ...
+[17set.2022 12:53:49.059] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: sophisticatedbackpacks:default took 12.00 ?s
+[17set.2022 12:53:49.059] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: ftblibrary:jei ...
+[17set.2022 12:53:49.059] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: ftblibrary:jei took 10.80 ?s
+[17set.2022 12:53:49.059] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:debug ...
+[17set.2022 12:53:49.059] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:debug took 10.10 ?s
+[17set.2022 12:53:49.059] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:forge ...
+[17set.2022 12:53:49.060] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:forge took 8.500 ?s
+[17set.2022 12:53:49.060] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: kubejs:jei ...
+[17set.2022 12:53:49.060] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: kubejs:jei took 7.600 ?s
+[17set.2022 12:53:49.060] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: ftbquests:jei ...
+[17set.2022 12:53:49.060] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: ftbquests:jei took 7.500 ?s
+[17set.2022 12:53:49.060] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: tfc:jei ...
+[17set.2022 12:53:49.060] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: tfc:jei took 6.500 ?s
+[17set.2022 12:53:49.061] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: sophisticatedcore:default ...
+[17set.2022 12:53:49.061] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: sophisticatedcore:default took 13.30 ?s
+[17set.2022 12:53:49.061] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: patchouli:patchouli ...
+[17set.2022 12:53:49.062] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: patchouli:patchouli took 10.20 ?s
+[17set.2022 12:53:49.062] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: quark:quark ...
+[17set.2022 12:53:49.062] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: quark:quark took 10.60 ?s
+[17set.2022 12:53:49.063] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:internal ...
+[17set.2022 12:53:49.063] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:internal took 12.10 ?s
+[17set.2022 12:53:49.063] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry...
+[17set.2022 12:53:49.143] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry took 79.34 ms
+[17set.2022 12:53:49.146] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:minecraft ...
+[17set.2022 12:53:50.434] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:minecraft took 1.288 s
+[17set.2022 12:53:50.435] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: farmersdelight:jei_plugin ...
+[17set.2022 12:53:50.584] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: farmersdelight:jei_plugin took 149.3 ms
+[17set.2022 12:53:50.584] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: sophisticatedbackpacks:default ...
+[17set.2022 12:53:50.595] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: sophisticatedbackpacks:default took 10.46 ms
+[17set.2022 12:53:50.596] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: ftblibrary:jei ...
+[17set.2022 12:53:50.596] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: ftblibrary:jei took 21.60 ?s
+[17set.2022 12:53:50.596] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:debug ...
+[17set.2022 12:53:50.597] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:debug took 38.20 ?s
+[17set.2022 12:53:50.597] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:forge ...
+[17set.2022 12:53:50.952] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:forge took 354.5 ms
+[17set.2022 12:53:50.952] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: kubejs:jei ...
+[17set.2022 12:53:50.954] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: kubejs:jei took 1.820 ms
+[17set.2022 12:53:50.954] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: ftbquests:jei ...
+[17set.2022 12:53:50.954] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: ftbquests:jei took 10.80 ?s
+[17set.2022 12:53:50.954] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: tfc:jei ...
+[17set.2022 12:53:51.460] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: tfc:jei took 505.7 ms
+[17set.2022 12:53:51.461] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: sophisticatedcore:default ...
+[17set.2022 12:53:51.464] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: sophisticatedcore:default took 2.489 ms
+[17set.2022 12:53:51.464] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: patchouli:patchouli ...
+[17set.2022 12:53:51.464] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: patchouli:patchouli took 15.10 ?s
+[17set.2022 12:53:51.465] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: quark:quark ...
+[17set.2022 12:53:51.526] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: quark:quark took 60.82 ms
+[17set.2022 12:53:51.526] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:internal ...
+[17set.2022 12:53:51.526] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:internal took 13.20 ?s
+[17set.2022 12:53:51.604] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft ...
+[17set.2022 12:53:51.623] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft took 19.39 ms
+[17set.2022 12:53:51.623] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: farmersdelight:jei_plugin ...
+[17set.2022 12:53:51.623] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: farmersdelight:jei_plugin took 22.70 ?s
+[17set.2022 12:53:51.624] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: sophisticatedbackpacks:default ...
+[17set.2022 12:53:51.627] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: sophisticatedbackpacks:default took 3.431 ms
+[17set.2022 12:53:51.627] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: ftblibrary:jei ...
+[17set.2022 12:53:51.628] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: ftblibrary:jei took 15.90 ?s
+[17set.2022 12:53:51.628] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug ...
+[17set.2022 12:53:51.628] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug took 10.30 ?s
+[17set.2022 12:53:51.628] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:forge ...
+[17set.2022 12:53:51.628] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:forge took 8.800 ?s
+[17set.2022 12:53:51.628] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: kubejs:jei ...
+[17set.2022 12:53:51.629] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: kubejs:jei took 9.200 ?s
+[17set.2022 12:53:51.629] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: ftbquests:jei ...
+[17set.2022 12:53:51.629] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: ftbquests:jei took 8.100 ?s
+[17set.2022 12:53:51.629] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: tfc:jei ...
+[17set.2022 12:53:51.629] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: tfc:jei took 6.900 ?s
+[17set.2022 12:53:51.629] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: sophisticatedcore:default ...
+[17set.2022 12:53:51.629] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: sophisticatedcore:default took 6.600 ?s
+[17set.2022 12:53:51.630] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: patchouli:patchouli ...
+[17set.2022 12:53:51.630] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: patchouli:patchouli took 7.100 ?s
+[17set.2022 12:53:51.630] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: quark:quark ...
+[17set.2022 12:53:51.630] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: quark:quark took 22.30 ?s
+[17set.2022 12:53:51.631] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal ...
+[17set.2022 12:53:51.631] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal took 10.90 ?s
+[17set.2022 12:53:52.113] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime...
+[17set.2022 12:53:52.115] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:minecraft ...
+[17set.2022 12:53:52.119] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:minecraft took 3.432 ms
+[17set.2022 12:53:52.119] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: farmersdelight:jei_plugin ...
+[17set.2022 12:53:52.119] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: farmersdelight:jei_plugin took 29.10 ?s
+[17set.2022 12:53:52.119] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: sophisticatedbackpacks:default ...
+[17set.2022 12:53:52.122] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: sophisticatedbackpacks:default took 2.674 ms
+[17set.2022 12:53:52.122] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: ftblibrary:jei ...
+[17set.2022 12:53:52.123] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: ftblibrary:jei took 39.60 ?s
+[17set.2022 12:53:52.123] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:debug ...
+[17set.2022 12:53:52.123] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:debug took 16.00 ?s
+[17set.2022 12:53:52.123] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:forge ...
+[17set.2022 12:53:52.123] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:forge took 11.40 ?s
+[17set.2022 12:53:52.123] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: kubejs:jei ...
+[17set.2022 12:53:52.124] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: kubejs:jei took 8.800 ?s
+[17set.2022 12:53:52.124] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: ftbquests:jei ...
+[17set.2022 12:53:52.124] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: ftbquests:jei took 7.800 ?s
+[17set.2022 12:53:52.124] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: tfc:jei ...
+[17set.2022 12:53:52.124] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: tfc:jei took 11.10 ?s
+[17set.2022 12:53:52.124] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: sophisticatedcore:default ...
+[17set.2022 12:53:52.124] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: sophisticatedcore:default took 7.100 ?s
+[17set.2022 12:53:52.125] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: patchouli:patchouli ...
+[17set.2022 12:53:52.125] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: patchouli:patchouli took 9.000 ?s
+[17set.2022 12:53:52.125] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: quark:quark ...
+[17set.2022 12:53:52.126] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: quark:quark took 773.7 ?s
+[17set.2022 12:53:52.126] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:internal ...
+[17set.2022 12:53:52.138] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:internal took 10.72 ms
+[17set.2022 12:53:52.232] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime took 118.8 ms
+[17set.2022 12:53:52.233] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:minecraft ...
+[17set.2022 12:53:52.233] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:minecraft took 21.10 ?s
+[17set.2022 12:53:52.233] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: farmersdelight:jei_plugin ...
+[17set.2022 12:53:52.233] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: farmersdelight:jei_plugin took 5.100 ?s
+[17set.2022 12:53:52.233] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: sophisticatedbackpacks:default ...
+[17set.2022 12:53:52.233] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: sophisticatedbackpacks:default took 4.700 ?s
+[17set.2022 12:53:52.233] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: ftblibrary:jei ...
+[17set.2022 12:53:52.233] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: ftblibrary:jei took 8.900 ?s
+[17set.2022 12:53:52.233] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:debug ...
+[17set.2022 12:53:52.233] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:debug took 10.80 ?s
+[17set.2022 12:53:52.233] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:forge ...
+[17set.2022 12:53:52.234] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:forge took 4.600 ?s
+[17set.2022 12:53:52.234] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: kubejs:jei ...
+[17set.2022 12:53:52.242] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: kubejs:jei took 8.413 ms
+[17set.2022 12:53:52.242] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: ftbquests:jei ...
+[17set.2022 12:53:52.243] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: ftbquests:jei took 20.50 ?s
+[17set.2022 12:53:52.243] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: tfc:jei ...
+[17set.2022 12:53:52.244] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: tfc:jei took 12.70 ?s
+[17set.2022 12:53:52.245] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: sophisticatedcore:default ...
+[17set.2022 12:53:52.245] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: sophisticatedcore:default took 18.00 ?s
+[17set.2022 12:53:52.245] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: patchouli:patchouli ...
+[17set.2022 12:53:52.246] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: patchouli:patchouli took 23.20 ?s
+[17set.2022 12:53:52.246] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: quark:quark ...
+[17set.2022 12:53:52.247] [Render thread/INFO] [mezz.jei.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 9 net.minecraft.world.item.ItemStack
+[17set.2022 12:53:52.252] [Render thread/ERROR] [mezz.jei.ingredients.IngredientManager/]: Could not find a matching ingredient to remove: 1 magnetized_block quark:magnetized_block
+[17set.2022 12:53:52.256] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: quark:quark took 10.19 ms
+[17set.2022 12:53:52.257] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:internal ...
+[17set.2022 12:53:52.257] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:internal took 15.20 ?s
+[17set.2022 12:53:52.508] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI took 8.183 s
+[17set.2022 12:53:52.944] [Render thread/INFO] [FTB Chunks/]: Loading FTB Chunks client data from world 0014e2b2-40f1-48f3-8c8c-c0965d5519bb
+[17set.2022 12:53:53.276] [Render thread/INFO] [FTB Quests/]: Read 6780 bytes, 58 objects
+[17set.2022 12:53:53.863] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2212 advancements
+[17set.2022 12:53:54.552] [Render thread/INFO] [mezz.jei.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 19 net.minecraft.world.item.ItemStack
+[17Sep2022 12:54:02.894] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[17Sep2022 12:54:03.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:overworld
+[17Sep2022 12:54:04.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:the_end
+[17Sep2022 12:54:04.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:the_nether
+[17set.2022 13:05:25.363] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] You have enabled Rotation Lock. Any blocks you place will be oriented in the direction you were looking. Press [k] to change or reset it. This message won't appear again.
+[17Sep2022 13:05:51.402] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[17Sep2022 13:05:51.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:overworld
+[17Sep2022 13:05:51.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:the_end
+[17Sep2022 13:05:51.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:the_nether
+[17Sep2022 13:42:45.912] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 19361ms or 387 ticks behind
+[17Sep2022 13:49:32.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KitoWasHere has made the advancement [Fireproof]
+[17set.2022 13:49:32.624] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] KitoWasHere has made the advancement [Fireproof]
+[17set.2022 13:49:32.681] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2213 advancements
+[17Sep2022 13:53:57.961] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2810ms or 56 ticks behind
+[17set.2022 13:59:37.789] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[17set.2022 13:59:38.268] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggedOutEvent
+[17set.2022 13:59:38.268] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[17set.2022 13:59:38.295] [Render thread/INFO] [mezz.jei.forge.startup.ClientLifecycleHandler/]: Stopping JEI
+[17Sep2022 13:59:38.401] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: KitoWasHere lost connection: Internal Exception: java.nio.channels.ClosedChannelException
+[17Sep2022 13:59:38.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: KitoWasHere left the game
+[17Sep2022 13:59:38.463] [Server thread/INFO] [net.dries007.tfc.util.calendar.CalendarEventHandler/]: Player Logged Out - Checking for Calendar Updates.
+[17Sep2022 13:59:38.464] [Server thread/INFO] [net.dries007.tfc.util.calendar.Calendar/]: Forced doDaylightCycle to false as no players are logged in. Will revert to true as soon as a player logs in.
+[17Sep2022 13:59:38.728] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[17Sep2022 13:59:38.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[17Sep2022 13:59:38.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[17Sep2022 13:59:38.874] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[17Sep2022 13:59:45.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:overworld
+[17Sep2022 13:59:49.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:the_end
+[17Sep2022 13:59:49.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[test]'/minecraft:the_nether
+[17Sep2022 13:59:49.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (test): All chunks are saved
+[17Sep2022 13:59:49.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17Sep2022 13:59:49.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17Sep2022 13:59:49.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17set.2022 14:00:02.066] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
+[17set.2022 14:00:12.473] [Render thread/INFO] [FTB Chunks/]: Shutting down map thread
