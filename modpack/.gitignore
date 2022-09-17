@@ -1,1 +1,4 @@
 *.json
+saves/
+screenshots/
+crash-reports/
