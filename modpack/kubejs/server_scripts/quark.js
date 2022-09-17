@@ -30,6 +30,12 @@ onEvent('recipes', event => {
             }
         }
     )
+
+    // Remove chute
+    event.remove({"output": "quark:chute"})
+
+    // Remove iron rod
+    event.remove({"output": "quark:iron_rod"})
 })
 
 onEvent('item.tags', event => {
