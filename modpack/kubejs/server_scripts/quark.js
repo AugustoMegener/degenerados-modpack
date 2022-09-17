@@ -11,6 +11,8 @@ onEvent('recipes', event => {
 	// Change recipes here
 
     // https://terrafirmacraft.github.io/Documentation/1.18.x/data/recipes/#knapping
+    
+    // Bundle
     event.remove({"output": "minecraft:bundle"})
     event.custom(
         {
