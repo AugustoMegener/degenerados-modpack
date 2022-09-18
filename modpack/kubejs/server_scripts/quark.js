@@ -37,11 +37,12 @@ onEvent('recipes', event => {
         "quark:feeding_trough",
         [
             "F F",
+            "L L",
             "LLL"
         ],
         {
-            F: "forge:fence_gates/wooden",
-            L: "tfc:lumber"
+            F: "#forge:fence_gates/wooden",
+            L: "#tfc:lumber"
         }
     )
 
