@@ -1,0 +1,124 @@
+{
+	id: "1EC50319392475C5"
+	group: "74A1066651644D3D"
+	order_index: 1
+	filename: "copper_age"
+	title: "Copper age."
+	icon: {
+		id: "tfc:metal/double_ingot/copper"
+		Count: 1b
+		ForgeCaps: {
+			"tfc:item_heat": {
+				heat: 0.0f
+				ticks: 0L
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Moldes!"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Criando as primeiras barras."
+			description: ["Crie um molde de barra com uma clay ball, depois coloque-a em uma pit klin."]
+			dependencies: ["357313E7E5D5BB93"]
+			id: "5ED0603CC99117CF"
+			tasks: [{
+				id: "50407C7B8F415196"
+				type: "item"
+				item: {
+					id: "tfc:ceramic/ingot_mold"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "7283566DDFDE04E7"
+				type: "item"
+				item: {
+					id: "tfc:ceramic/ingot_mold"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Cobre o Cobre."
+			x: 2.0d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "Iniciando na metalurgia."
+			description: ["Funda 100Mb de copper em um vessel com uma pit kiln, com o metal derretido, clique no ar com o botão direito e coloque o molde no unico slot, após encher o molde, espere ele esfriar, quando frio, ele estará pronto para ser removido do molde."]
+			dependencies: ["5ED0603CC99117CF"]
+			id: "5774B1DE22B45648"
+			tasks: [{
+				id: "4AD7A27AFE9E072A"
+				type: "item"
+				item: {
+					id: "tfc:metal/ingot/copper"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "62211EC60BEB0F1B"
+				type: "item"
+				item: "farmersdelight:mutton_wrap"
+			}]
+		}
+		{
+			title: "Forja."
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Martelo e a sua primeira bigorna."
+			description: [
+				"Crie um martelo lascando uma cabeça de pedra e juntando com um stick."
+				""
+				"Ache um bloco de pedra natural e use o martelo nela, ela irá virar uma bigorna básica de pedra."
+				""
+				"Esquente a barra de ferro em uma firepit, quando aparecer \"can work\" em sua descrição, retire-a, e, o mais rápido o possível, coloque na bigorna, e selecione o objeto a ser feito no plan e siga as intruções, a barra pode esfriar antes de terminar, caso isso aconteça, coloque na firepit novamente."
+				""
+			]
+			dependencies: ["5774B1DE22B45648"]
+			id: "58D01E572E3690F0"
+			tasks: [{
+				id: "6A9ADF55C8501AFA"
+				type: "item"
+				item: {
+					id: "tfc:stone/hammer/igneous_extrusive"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7A672163CCDA5CE6"
+				type: "item"
+				item: {
+					id: "tfc:ore/rich_native_copper"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+	]
+}

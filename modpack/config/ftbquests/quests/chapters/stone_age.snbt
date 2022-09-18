@@ -4,6 +4,7 @@
 	order_index: 0
 	filename: "stone_age"
 	title: "Stone Age."
+	icon: "tfc:rock/loose/shale"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -175,34 +176,6 @@
 			]
 			id: "3FB603BCE1557B39"
 			tasks: [
-				{
-					id: "461B5B1A5CA9C254"
-					type: "item"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "tfc:stone/knife_head/igneous_extrusive"
-									Count: 1b
-								}
-								{
-									id: "tfc:stone/knife_head/igneous_intrusive"
-									Count: 1b
-								}
-								{
-									id: "tfc:stone/knife_head/metamorphic"
-									Count: 1b
-								}
-								{
-									id: "tfc:stone/knife_head/sedimentary"
-									Count: 1b
-								}
-							]
-						}
-					}
-				}
 				{
 					id: "605561F1A4615906"
 					type: "item"
@@ -656,7 +629,7 @@
 		{
 			title: "Hide."
 			x: 2.5d
-			y: 4.0d
+			y: 3.5d
 			subtitle: "Working with hide."
 			description: ["There are three types of hide, small, medium and large, they are dropped according to the size of the hunted animal."]
 			dependencies: ["53F3E8C74BC35526"]
@@ -686,8 +659,8 @@
 		}
 		{
 			icon: "tfc:thatch_bed"
-			x: 1.0d
-			y: 4.0d
+			x: 4.0d
+			y: 3.5d
 			shape: "hexagon"
 			subtitle: "What a insomnia! :("
 			description: ["The thatch bed can be made by placing two thatch next to each other and clicking with a large raw hide, this bed is just to mark the spawnpoint, it doesn't make the night go by."]
