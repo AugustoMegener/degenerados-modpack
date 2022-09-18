@@ -31,6 +31,20 @@ onEvent('recipes', event => {
         }
     )
 
+    // Feeding Trough
+    event.remove({"output": "quark:feeding_trough"})
+    event.shaped(
+        "quark:feeding_trough",
+        [
+            "F F",
+            "LLL"
+        ],
+        {
+            F: "forge:fence_gates/wooden",
+            L: "tfc:lumber"
+        }
+    )
+
     // Remove chute
     event.remove({"output": "quark:chute"})
 
