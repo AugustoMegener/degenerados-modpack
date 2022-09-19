@@ -40,6 +40,7 @@
 				"Funda 100Mb de copper em um vessel com uma pit kiln, com o metal derretido, clique no ar com o botão direito e coloque o molde no unico slot, após encher o molde, espere ele esfriar, quando frio, ele estará pronto para ser removido do molde."
 			]
 			dependencies: ["357313E7E5D5BB93"]
+			hide: true
 			id: "5ED0603CC99117CF"
 			tasks: [
 				{
@@ -151,6 +152,21 @@
 				type: "item"
 				item: "tfc:powder/flux"
 				count: 16
+			}]
+		}
+		{
+			title: "Primeira bigorna."
+			icon: "tfc:rock/anvil/gabbro"
+			x: 3.0d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "Bigorna de pedra."
+			dependencies: ["499626059678AD0D"]
+			id: "345B2BC31061327B"
+			tasks: [{
+				id: "5AF7F13C1E21C1B1"
+				type: "checkmark"
+				title: "Primeira bigorna."
 			}]
 		}
 	]
