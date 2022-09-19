@@ -45,6 +45,7 @@
 			y: 0.0d
 			subtitle: "You can get the rocks on the floor right-clicking it!"
 			dependencies: ["0AC462CF606916CB"]
+			hide: true
 			id: "477D122E0F1E8FD6"
 			tasks: [{
 				id: "2BA119FA62F0D558"
@@ -114,6 +115,7 @@
 			y: 2.0d
 			subtitle: "You can get the sticks on the floor right-clicking it"
 			dependencies: ["0AC462CF606916CB"]
+			hide: true
 			id: "0D3BE2F633E2D1D9"
 			tasks: [{
 				id: "3719333760A1D6DC"
@@ -369,6 +371,7 @@
 				"6D49CF5AD4480DB8"
 				"3FB603BCE1557B39"
 			]
+			hide: true
 			id: "2A5E96518A615651"
 			tasks: [{
 				id: "474494D77F7656DA"
@@ -429,6 +432,7 @@
 				"2A5E96518A615651"
 				"6D04E8863E828450"
 			]
+			hide: true
 			id: "36AF4A56EF821DD1"
 			tasks: [{
 				id: "3D2DF93775648E1D"
@@ -633,6 +637,7 @@
 			subtitle: "Working with hide."
 			description: ["There are three types of hide, small, medium and large, they are dropped according to the size of the hunted animal."]
 			dependencies: ["53F3E8C74BC35526"]
+			hide: true
 			id: "53883E7E5EABB219"
 			tasks: [
 				{
