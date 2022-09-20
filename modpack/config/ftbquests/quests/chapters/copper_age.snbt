@@ -139,7 +139,7 @@
 			x: 3.0d
 			y: -1.5d
 			subtitle: "Pó de pedra."
-			description: ["Pegue uma roche e use o matelo para transformar em pó, esse pó será usado para soldar metais."]
+			description: ["Pegue uma rocha e use o matelo para transformar em pó, esse pó será usado para soldar metais."]
 			dependencies: ["499626059678AD0D"]
 			id: "3942E2885D20AF46"
 			tasks: [{
@@ -161,12 +161,274 @@
 			y: 1.5d
 			shape: "hexagon"
 			subtitle: "Bigorna de pedra."
+			description: [
+				"Esse é o tipo mais básico de bigorna, seve apenas para soldar cobre."
+				""
+				"Para conseguir uma, basta usar o martelo em uma pedra virgem, as pedras virgens são pedras que estão entre outras pedras."
+			]
 			dependencies: ["499626059678AD0D"]
 			id: "345B2BC31061327B"
 			tasks: [{
 				id: "5AF7F13C1E21C1B1"
 				type: "checkmark"
 				title: "Primeira bigorna."
+			}]
+			rewards: [{
+				id: "2D8057E7D2DEFF8E"
+				type: "item"
+				item: {
+					id: "tfc:food/barley_bread_sandwich"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							traits: [ ]
+							creationDate: 3108000L
+							foodData: {
+								fruit: 0.0f
+								sat: 0.0f
+								meat: 0.0f
+								veg: 0.0f
+								decay: 0.0f
+								grain: 0.0f
+								water: 0.0f
+								dairy: 0.0f
+								food: 0
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Carvoaria."
+			x: 4.5d
+			y: -3.0d
+			subtitle: "Criando charcoal!"
+			description: ["Coloque uma log em um buraco de 2 de profundidade segurando o shift, clique com o botão direito nela e preencha com mais logs, então coloque fogo na pilha e o tampe com um bloco não inflamavel, espere queimar completamente, isso pode demorar bastante, quando a fumaça sumir, ele etará pronto."]
+			id: "0C4701DB359A953C"
+			tasks: [{
+				id: "67E51EA0D436D23E"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 4L
+			}]
+			rewards: [{
+				id: "10399CDE1819E9ED"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 8
+			}]
+		}
+		{
+			icon: "quark:charcoal_block"
+			x: 4.5d
+			y: -1.5d
+			shape: "hexagon"
+			subtitle: "Forja de charcoal!"
+			description: [
+				"A forja é um metodo mais avançado de fundição de metal, pode ser usado tanto para fundi-los e tanto para esquenta-los."
+				""
+				"Crie um buraco revestido de pedras e encha-o de carvão, então, ascenda o carvão, a forja deve ser abastecida com charcoal, você pode colocar um vessel na lateral, os metáis derretidos nela irão para esse vessel."
+			]
+			dependencies: ["0C4701DB359A953C"]
+			id: "23B3B615BCCE3755"
+			tasks: [{
+				id: "4479CAB41D7CCED6"
+				type: "checkmark"
+				title: "Forja."
+			}]
+			rewards: [{
+				id: "3AB5EA4E87DD5BD7"
+				type: "item"
+				item: {
+					id: "tfc:food/barley_bread_sandwich"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							traits: [ ]
+							creationDate: 3108000L
+							foodData: {
+								fruit: 0.0f
+								sat: 0.0f
+								meat: 0.0f
+								veg: 0.0f
+								decay: 0.0f
+								grain: 0.0f
+								water: 0.0f
+								dairy: 0.0f
+								food: 0
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Forjando ferramentas."
+			x: 4.5d
+			y: 0.0d
+			subtitle: "Criando ferramentas de cobre."
+			description: [
+				"Já está na hora de abandonar nossa antiga bigorna de pedra..."
+				""
+				"Solde duas barras de cobre para uma barra de cobre dupla, então solde duas barras de cobre duplas em uma bigorna de cobre."
+				""
+				"Para soldar, você deve esquentar o objeto a ser soldado em uma forja até ele alcançar a temperatura laranja, então coloque ambos os objetos na bigorna junto com flux e use o martelo apertando shift na bigorna."
+				""
+				"Agora você pode criar ferramentas de cobre. Ferramentas requerem muita dedicação e estatégia para serem criadas."
+				""
+				"Primeiramente, esquente um metal até aparecer \"can work\" ou \"can weld\" em sua descrição, então, rapidamente coloque na bigorna, clique no icone de pergaminio e selecione o objeto a ser criado."
+				""
+				"Agora, você pode ver que temos oito botões, uma barra com dois ponteiros e três quadrados com icones correspondendo aos botões, esses icones são regras que devem ser seguidas quando a ferramenta for completa."
+				""
+				"Os ponteiros são um vermelho e um verde, seu objetivo é alinhar os dois, para alinha-los, você deve mover o ponteiro verde apertando os botões, os botões vermelhos fazem o ponteiro verde ir para traz, e os verdes fazer eles irem para frente, porém, quando eles estiverem alinhados, todas as regras devem estar sendo obedecidas, caso seja esse o caso, sua ferramenta estará pronta, quanto menos botões você apertar, melhor será sua qualidade e maior será sua durabilidade."
+			]
+			dependencies: [
+				"3942E2885D20AF46"
+				"345B2BC31061327B"
+				"23B3B615BCCE3755"
+			]
+			id: "27D8B3BECD2A71A6"
+			tasks: [{
+				id: "5AA2393A7123047E"
+				type: "item"
+				item: {
+					id: "tfc:metal/anvil/copper"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "06BA2C2BC5A8244D"
+				type: "item"
+				item: {
+					id: "tfc:metal/ingot/copper"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Finalmente, picaretas!"
+			x: 4.5d
+			y: 2.0d
+			subtitle: "A sua primeira picareta."
+			dependencies: ["27D8B3BECD2A71A6"]
+			id: "77FF7E734FFF82FD"
+			tasks: [{
+				id: "1999A4B007E85A18"
+				type: "item"
+				item: {
+					id: "tfc:metal/pickaxe/copper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			id: "4CCF7BE1C7A691BA"
+			tasks: [{
+				id: "3654CDC0804B982B"
+				type: "item"
+				item: {
+					id: "tfc:metal/saw/copper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			id: "7213D06EC323D2DA"
+			tasks: [{
+				id: "0B6E0B48F3A8BBA1"
+				type: "item"
+				item: {
+					id: "tfc:metal/axe/copper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.0d
+			id: "10F85F62BAFA99DB"
+			tasks: [{
+				id: "542CD2242A6C71D4"
+				type: "item"
+				item: {
+					id: "tfc:metal/knife/copper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			id: "1067C2B3D8F1536D"
+			tasks: [{
+				id: "53557359D5AE4D0F"
+				type: "item"
+				item: {
+					id: "tfc:metal/javelin/copper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
 			}]
 		}
 	]
