@@ -8,7 +8,7 @@ settings.logErroringRecipes = true
 console.info('Hello, World! (You will see this line every time server resources reload)')
 
 onEvent('recipes', event => {
-    event.remove({"output": /tfc:ceramic\/.*_mold/})
+    event.remove({"type": "tfc:casting", "not": {"fluid":{"ingredient": "tfc:metal/copper"}}})
 })
 
 onEvent('item.tags', event => {
