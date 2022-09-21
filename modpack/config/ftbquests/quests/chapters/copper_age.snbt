@@ -320,8 +320,8 @@
 		}
 		{
 			title: "Finalmente, picaretas!"
-			x: 4.5d
-			y: 2.0d
+			x: 5.0d
+			y: 2.5d
 			subtitle: "A sua primeira picareta."
 			dependencies: ["27D8B3BECD2A71A6"]
 			id: "77FF7E734FFF82FD"
@@ -344,8 +344,11 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 0.0d
+			title: "Serrote"
+			x: 7.0d
+			y: 0.5d
+			subtitle: "Trabalhando com madeira."
+			dependencies: ["27D8B3BECD2A71A6"]
 			id: "4CCF7BE1C7A691BA"
 			tasks: [{
 				id: "3654CDC0804B982B"
@@ -366,8 +369,11 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 2.0d
+			title: "Machado novo."
+			x: 7.0d
+			y: 2.5d
+			subtitle: "Atualizando o machado."
+			dependencies: ["27D8B3BECD2A71A6"]
 			id: "7213D06EC323D2DA"
 			tasks: [{
 				id: "0B6E0B48F3A8BBA1"
@@ -388,8 +394,11 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 1.0d
+			title: "Faca de cobre."
+			x: 7.5d
+			y: 1.5d
+			subtitle: "Atualização e novos usos!"
+			dependencies: ["27D8B3BECD2A71A6"]
 			id: "10F85F62BAFA99DB"
 			tasks: [{
 				id: "542CD2242A6C71D4"
@@ -410,8 +419,11 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 2.5d
+			title: "Lança"
+			x: 6.0d
+			y: 3.0d
+			subtitle: "Lança de cobre."
+			dependencies: ["27D8B3BECD2A71A6"]
 			id: "1067C2B3D8F1536D"
 			tasks: [{
 				id: "53557359D5AE4D0F"
