@@ -342,6 +342,32 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "75973AB37B26DB8F"
+				type: "item"
+				item: {
+					id: "tfc:food/grain_salad"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							traits: [ ]
+							creationDate: 3270000L
+							foodData: {
+								fruit: 0.0f
+								sat: 0.0f
+								meat: 0.0f
+								veg: 0.0f
+								decay: 0.0f
+								grain: 0.0f
+								water: 0.0f
+								dairy: 0.0f
+								food: 0
+							}
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Serrote"
@@ -438,6 +464,32 @@
 						"tfc:item_heat": {
 							heat: 0.0f
 							ticks: 0L
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "04D6080C639BBE82"
+				type: "item"
+				item: {
+					id: "tfc:food/fruit_salad"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							traits: [ ]
+							creationDate: 3270000L
+							foodData: {
+								fruit: 0.0f
+								sat: 0.0f
+								meat: 0.0f
+								veg: 0.0f
+								decay: 0.0f
+								grain: 0.0f
+								water: 0.0f
+								dairy: 0.0f
+								food: 0
+							}
 						}
 					}
 				}
