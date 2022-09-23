@@ -141,6 +141,7 @@
 			subtitle: "Pó de pedra."
 			description: ["Pegue uma rocha e use o matelo para transformar em pó, esse pó será usado para soldar metais."]
 			dependencies: ["499626059678AD0D"]
+			hide_text_until_complete: true
 			id: "3942E2885D20AF46"
 			tasks: [{
 				id: "4825B0BDC27AAD8D"
@@ -167,6 +168,7 @@
 				"Para conseguir uma, basta usar o martelo em uma pedra virgem, as pedras virgens são pedras que estão entre outras pedras."
 			]
 			dependencies: ["499626059678AD0D"]
+			hide: true
 			id: "345B2BC31061327B"
 			tasks: [{
 				id: "5AF7F13C1E21C1B1"
@@ -205,6 +207,7 @@
 			y: -3.0d
 			subtitle: "Criando charcoal!"
 			description: ["Coloque uma log em um buraco de 2 de profundidade segurando o shift, clique com o botão direito nela e preencha com mais logs, então coloque fogo na pilha e o tampe com um bloco não inflamavel, espere queimar completamente, isso pode demorar bastante, quando a fumaça sumir, ele etará pronto."]
+			dependencies: ["357313E7E5D5BB93"]
 			id: "0C4701DB359A953C"
 			tasks: [{
 				id: "67E51EA0D436D23E"
@@ -288,6 +291,7 @@
 				"345B2BC31061327B"
 				"23B3B615BCCE3755"
 			]
+			hide: true
 			id: "27D8B3BECD2A71A6"
 			tasks: [{
 				id: "5AA2393A7123047E"
@@ -324,6 +328,7 @@
 			y: 2.5d
 			subtitle: "A sua primeira picareta."
 			dependencies: ["27D8B3BECD2A71A6"]
+			hide: true
 			id: "77FF7E734FFF82FD"
 			tasks: [{
 				id: "1999A4B007E85A18"
@@ -375,6 +380,7 @@
 			y: 0.5d
 			subtitle: "Trabalhando com madeira."
 			dependencies: ["27D8B3BECD2A71A6"]
+			hide: true
 			id: "4CCF7BE1C7A691BA"
 			tasks: [{
 				id: "3654CDC0804B982B"
@@ -393,6 +399,32 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "06FD195775D889E9"
+				type: "item"
+				item: {
+					id: "tfc:food/dairy_salad"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							traits: [ ]
+							creationDate: 3270000L
+							foodData: {
+								fruit: 0.0f
+								sat: 0.0f
+								meat: 0.0f
+								veg: 0.0f
+								decay: 0.0f
+								grain: 0.0f
+								water: 0.0f
+								dairy: 0.0f
+								food: 0
+							}
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Machado novo."
@@ -400,6 +432,7 @@
 			y: 2.5d
 			subtitle: "Atualizando o machado."
 			dependencies: ["27D8B3BECD2A71A6"]
+			hide: true
 			id: "7213D06EC323D2DA"
 			tasks: [{
 				id: "0B6E0B48F3A8BBA1"
@@ -418,6 +451,32 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "46D5DA2890060C01"
+				type: "item"
+				item: {
+					id: "tfc:food/vegetables_salad"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							traits: [ ]
+							creationDate: 3270000L
+							foodData: {
+								fruit: 0.0f
+								sat: 0.0f
+								meat: 0.0f
+								veg: 0.0f
+								decay: 0.0f
+								grain: 0.0f
+								water: 0.0f
+								dairy: 0.0f
+								food: 0
+							}
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Faca de cobre."
@@ -425,6 +484,7 @@
 			y: 1.5d
 			subtitle: "Atualização e novos usos!"
 			dependencies: ["27D8B3BECD2A71A6"]
+			hide: true
 			id: "10F85F62BAFA99DB"
 			tasks: [{
 				id: "542CD2242A6C71D4"
@@ -443,6 +503,32 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "7357253C5430DD73"
+				type: "item"
+				item: {
+					id: "tfc:food/protein_salad"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: {
+							traits: [ ]
+							creationDate: 3270000L
+							foodData: {
+								fruit: 0.0f
+								sat: 0.0f
+								meat: 0.0f
+								veg: 0.0f
+								decay: 0.0f
+								grain: 0.0f
+								water: 0.0f
+								dairy: 0.0f
+								food: 0
+							}
+						}
+					}
+				}
+			}]
 		}
 		{
 			title: "Lança"
@@ -450,6 +536,7 @@
 			y: 3.0d
 			subtitle: "Lança de cobre."
 			dependencies: ["27D8B3BECD2A71A6"]
+			hide: true
 			id: "1067C2B3D8F1536D"
 			tasks: [{
 				id: "53557359D5AE4D0F"
@@ -493,6 +580,33 @@
 						}
 					}
 				}
+			}]
+		}
+		{
+			title: "Tabuas."
+			x: 7.0d
+			y: -1.0d
+			subtitle: "Iniciando a marcenaria."
+			description: ["O cerrote te permitirá transformar troncos em tabuas, use-o para criar algumas tábuas."]
+			dependencies: ["4CCF7BE1C7A691BA"]
+			id: "2A3FC2B6A3B2D330"
+			tasks: [{
+				id: "5B0E60E7C3B8D039"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:lumber"
+					}
+				}
+				count: 8L
+			}]
+			rewards: [{
+				id: "1D58BD00775D8A8E"
+				type: "item"
+				item: "tfc:wood/lumber/oak"
+				count: 4
 			}]
 		}
 	]
