@@ -585,7 +585,7 @@
 		{
 			title: "Tabuas."
 			x: 7.0d
-			y: -1.0d
+			y: -1.5d
 			subtitle: "Iniciando a marcenaria."
 			description: ["O cerrote te permitirá transformar troncos em tabuas, use-o para criar algumas tábuas."]
 			dependencies: ["4CCF7BE1C7A691BA"]
@@ -607,6 +607,81 @@
 				type: "item"
 				item: "tfc:wood/lumber/oak"
 				count: 4
+			}]
+		}
+		{
+			title: "Saudades?"
+			x: 7.0d
+			y: -3.5d
+			subtitle: "Finalmente! Craftng table!"
+			description: ["Depois de tanta espera, finalmente você pode criar sua primeira crafting table!"]
+			dependencies: ["2A3FC2B6A3B2D330"]
+			id: "5682F24E8EFDBB2A"
+			tasks: [{
+				id: "699A6694DBE7687F"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [{
+				id: "5C0AA028534F77A6"
+				type: "item"
+				item: {
+					id: "tfc:food/cherry"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:food": {
+							traits: [ ]
+							creationDate: -1L
+						}
+					}
+				}
+				count: 16
+			}]
+		}
+		{
+			title: "Barril."
+			x: 9.0d
+			y: -3.5d
+			subtitle: "Lá vem o chaves, chaves, chaves..."
+			description: ["Barris servem para armazenar liquidos e usa-los de novas formas."]
+			dependencies: ["5682F24E8EFDBB2A"]
+			id: "2FF6605C0CC1FA5F"
+			tasks: [{
+				id: "250DFDEDD7471472"
+				type: "item"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tfc:barrels"
+					}
+				}
+			}]
+			rewards: [{
+				id: "72485FE98E504BC6"
+				type: "item"
+				item: {
+					id: "tfc:ore/rich_native_copper"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 10.0d
+			y: -3.5d
+			id: "71D56D9F47D4BB10"
+			tasks: [{
+				id: "3FD2AA863C2EABC9"
+				type: "fluid"
+				fluid: "tfc:flowing_limewater"
+				amount: 1000L
 			}]
 		}
 	]
