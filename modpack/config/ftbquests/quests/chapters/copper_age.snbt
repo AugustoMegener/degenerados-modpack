@@ -585,10 +585,11 @@
 		{
 			title: "Tabuas."
 			x: 7.0d
-			y: -1.5d
+			y: -1.0d
 			subtitle: "Iniciando a marcenaria."
 			description: ["O cerrote te permitirá transformar troncos em tabuas, use-o para criar algumas tábuas."]
 			dependencies: ["4CCF7BE1C7A691BA"]
+			hide: true
 			id: "2A3FC2B6A3B2D330"
 			tasks: [{
 				id: "5B0E60E7C3B8D039"
@@ -612,7 +613,7 @@
 		{
 			title: "Saudades?"
 			x: 7.0d
-			y: -3.5d
+			y: -2.5d
 			subtitle: "Finalmente! Craftng table!"
 			description: ["Depois de tanta espera, finalmente você pode criar sua primeira crafting table!"]
 			dependencies: ["2A3FC2B6A3B2D330"]
@@ -640,8 +641,8 @@
 		}
 		{
 			title: "Barril."
-			x: 9.0d
-			y: -3.5d
+			x: 8.0d
+			y: -3.0d
 			subtitle: "Lá vem o chaves, chaves, chaves..."
 			description: ["Barris servem para armazenar liquidos e usa-los de novas formas."]
 			dependencies: ["5682F24E8EFDBB2A"]
@@ -674,15 +675,351 @@
 			}]
 		}
 		{
-			x: 10.0d
-			y: -3.5d
-			id: "71D56D9F47D4BB10"
+			title: "Baldes."
+			x: 8.0d
+			y: -2.0d
+			subtitle: "Baldes de madeira."
+			description: ["Esse balde pode coletar liquidos, mas só consegue colocar eles em armazenamentos de fluido."]
+			dependencies: ["5682F24E8EFDBB2A"]
+			id: "1EA9F34BCBF8D345"
 			tasks: [{
-				id: "3FD2AA863C2EABC9"
-				type: "fluid"
-				fluid: "tfc:flowing_limewater"
-				amount: 1000L
+				id: "3E0F8BD59ACF4037"
+				type: "item"
+				item: {
+					id: "tfc:wooden_bucket"
+					Count: 1b
+					tag: { }
+				}
 			}]
+			rewards: [{
+				id: "5626D264EE43FBBA"
+				type: "item"
+				item: "tfc:wood/wood/ash"
+				count: 16
+			}]
+		}
+		{
+			title: "Água de lima."
+			icon: "tfc:large_soaked_hide"
+			x: 9.0d
+			y: -2.5d
+			subtitle: "Iniciando na couraria!"
+			description: ["Misture flux com água em um barril, será produzido limewater, ele é usado para o primeiro processo de tratamento de couro, coloque raw hide na limewater, será produzido soaked hide!"]
+			dependencies: [
+				"1EA9F34BCBF8D345"
+				"2FF6605C0CC1FA5F"
+			]
+			id: "33236B1873835166"
+			tasks: [
+				{
+					id: "643172C2AAE8AEEC"
+					type: "item"
+					item: "tfc:small_soaked_hide"
+				}
+				{
+					id: "4E34ED1FC64828D9"
+					type: "item"
+					item: "tfc:medium_soaked_hide"
+				}
+				{
+					id: "715D3257D0E7D580"
+					type: "item"
+					item: "tfc:large_soaked_hide"
+				}
+			]
+			rewards: [{
+				id: "341223B32236A3E3"
+				type: "item"
+				item: {
+					id: "tfc:food/gran_feline"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:food": {
+							traits: [ ]
+							creationDate: -1L
+						}
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			title: "Próximo passo."
+			icon: "tfc:large_scraped_hide"
+			x: 9.0d
+			y: 1.5d
+			subtitle: "Limpando o couro."
+			description: ["Coloque o soaked hide em cima de um tronco deitado, use a faca para limpa-lo, quando estiver pronto, quebre-o."]
+			dependencies: [
+				"33236B1873835166"
+				"10F85F62BAFA99DB"
+			]
+			id: "2F5CE5C9F6A2223D"
+			tasks: [
+				{
+					id: "67EA206EEB1CB7D2"
+					type: "item"
+					item: "tfc:small_scraped_hide"
+				}
+				{
+					id: "1C740A8876625B29"
+					type: "item"
+					item: "tfc:medium_scraped_hide"
+				}
+				{
+					id: "6C47C512C984AE86"
+					type: "item"
+					item: "tfc:large_scraped_hide"
+				}
+			]
+			rewards: [{
+				id: "633436981D913847"
+				type: "item"
+				item: {
+					id: "tfc:food/bear"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:food": {
+							traits: [ ]
+							creationDate: -1L
+						}
+						"tfc:item_heat": {
+							heat: 0.0f
+							ticks: 0L
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			title: "Pele preparada!"
+			icon: "tfc:large_prepared_hide"
+			x: 10.5d
+			y: 1.5d
+			subtitle: "Ultimos passos!"
+			dependencies: ["2F5CE5C9F6A2223D"]
+			hide: true
+			id: "008A2693D90BFB57"
+			tasks: [
+				{
+					id: "39CF6F2CAB794626"
+					type: "item"
+					item: "tfc:small_prepared_hide"
+				}
+				{
+					id: "4E74482FF16B16ED"
+					type: "item"
+					item: "tfc:medium_prepared_hide"
+				}
+				{
+					id: "6340BD6E34E85641"
+					type: "item"
+					item: "tfc:large_prepared_hide"
+				}
+			]
+			rewards: [{
+				id: "00AC0BDB609EA3B7"
+				type: "item"
+				item: {
+					id: "tfc:food/strawberry"
+					Count: 1b
+					ForgeCaps: {
+						"tfc:food": {
+							traits: [ ]
+							creationDate: -1L
+						}
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			title: "Couro!"
+			x: 12.0d
+			y: 1.5d
+			subtitle: "Finalizado!"
+			description: ["Coloque troncos num barril de água, não são todos tipos de tronco que funciona, cheque clicando U com o mouse em cima do item, então, será produzido tanin, coloque o prepared hide, será produzido couro."]
+			dependencies: ["008A2693D90BFB57"]
+			hide_text_until_complete: true
+			id: "6971F20BDD641D69"
+			tasks: [{
+				id: "426872B65C87C476"
+				type: "item"
+				item: "minecraft:leather"
+				count: 6L
+			}]
+			rewards: [{
+				id: "4A60CA3D0215FCF7"
+				type: "item"
+				item: "farmersdelight:stuffed_potato"
+			}]
+		}
+		{
+			title: "Botas."
+			x: 14.0d
+			y: 3.0d
+			subtitle: "Botas."
+			dependencies: ["6971F20BDD641D69"]
+			id: "4EDCD01895E5CC35"
+			tasks: [{
+				id: "78462889A2B1A04D"
+				type: "item"
+				item: {
+					id: "minecraft:leather_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Calças."
+			x: 14.0d
+			y: 2.0d
+			subtitle: "Calças."
+			dependencies: ["6971F20BDD641D69"]
+			id: "01AF7742C828CD44"
+			tasks: [{
+				id: "3C6230D61ED99DD8"
+				type: "item"
+				item: {
+					id: "minecraft:leather_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Tunica."
+			x: 14.0d
+			y: 1.0d
+			subtitle: "Tunica."
+			dependencies: ["6971F20BDD641D69"]
+			id: "35D1079F8A347FF8"
+			tasks: [{
+				id: "1C5EBD8BF94F3324"
+				type: "item"
+				item: {
+					id: "minecraft:leather_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Capuz."
+			x: 14.0d
+			y: 0.0d
+			subtitle: "Capuz."
+			dependencies: ["6971F20BDD641D69"]
+			id: "374D0FBA139F4AC1"
+			tasks: [{
+				id: "2DFB60780863D7CB"
+				type: "item"
+				item: {
+					id: "minecraft:leather_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Bolça!"
+			x: 12.0d
+			y: 0.0d
+			subtitle: "Não a esqueceremos!"
+			dependencies: ["6971F20BDD641D69"]
+			id: "6767B5A5F48EA2F4"
+			tasks: [{
+				id: "15E1C902B1323D9D"
+				type: "item"
+				item: "minecraft:bundle"
+			}]
+			rewards: [
+				{
+					id: "38220C3BACA72F97"
+					type: "item"
+					item: "tfc:rock/loose/claystone"
+					count: 16
+				}
+				{
+					id: "232F92DDAFB7E2E7"
+					type: "item"
+					item: {
+						id: "tfc:stick_bunch"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "35FC781F0376922E"
+					type: "item"
+					item: {
+						id: "tfc:ore/normal_native_copper"
+						Count: 1b
+						ForgeCaps: {
+							"tfc:item_heat": {
+								heat: 0.0f
+								ticks: 0L
+							}
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Moedor"
+			icon: {
+				id: "tfc:handstone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 5.0d
+			y: 5.0d
+			subtitle: "Moendo itens."
+			description: ["Para moer itens, você precisa de 2 itens, quern e handstone, coloque a quern no chão e em cima o handstone, então coloque o item a ser moido e clique na parte de madeira, os itens serão moidos e apareceram no quern."]
+			dependencies: ["77FF7E734FFF82FD"]
+			hide: true
+			id: "5059BCD263F17804"
+			tasks: [
+				{
+					id: "0329849208701007"
+					type: "item"
+					item: {
+						id: "tfc:handstone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "672544677532D405"
+					type: "item"
+					item: "tfc:quern"
+				}
+			]
 		}
 	]
 }
