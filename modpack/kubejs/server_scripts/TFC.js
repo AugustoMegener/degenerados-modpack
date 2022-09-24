@@ -40,6 +40,21 @@ onEvent('recipes', event => {
             }
         }
     )
+
+    // change crafting table recipe
+    event.remove({output: "#tfc:workbenches"})
+    event.remove({output: "minecraft:crafting_table"})
+    event.shaped(
+        "minecraft:crafting_table",
+        [
+            'PP',
+            'LL'
+        ],
+        {
+            P: 'tfc:metal/sheet/copper',
+            L: '#tfc:lumber'
+        }
+    )
 })
 
 onEvent('item.tags', event => {
