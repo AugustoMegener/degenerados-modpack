@@ -57,6 +57,8 @@
 	showGuideBookTabInInventory = true
 	#If true, mods like Jade that add info when hovering on a block will add the hoe's overlay info to the tooltip, even when not holding a hoe.
 	showHoeOverlaysInInfoMods = true
+	#Allows the vanilla XP bar to render.
+	enableExperienceBar = true
 
 [compatibility]
 	#Defines additional metal sheet textures that should be added to the block atlas, as they would be otherwise unused, for use in ingot piles and metal sheet blocks.
