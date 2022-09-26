@@ -1021,5 +1021,213 @@
 				}
 			]
 		}
+		{
+			title: "Fertilizante mistico!"
+			x: 6.5d
+			y: 5.0d
+			subtitle: "Extração mistica."
+			description: ["As plantas agora tem energias misticas, moendo mudas de arvore você pode extrair essa energia e transformar em um adubo, esse adubo consegue produzir plantas com alta concentração de magia da natureza."]
+			dependencies: ["5059BCD263F17804"]
+			id: "5426B048283E5B0A"
+			tasks: [{
+				id: "4CDC851740ECB8D9"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 8L
+			}]
+			rewards: [{
+				id: "043952CFF14AB9CB"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 16
+			}]
+		}
+		{
+			title: "Flores mistica."
+			x: 8.0d
+			y: 5.0d
+			subtitle: "A magica está no ar!"
+			description: ["Existem vários tipos de flores de diversas cores, elas serão essenciais para a utilização da magia da natureza."]
+			dependencies: ["5426B048283E5B0A"]
+			id: "70152FF2A277E846"
+			tasks: [
+				{
+					id: "18398951CA89B4C4"
+					type: "item"
+					item: "botania:light_gray_mystical_flower"
+				}
+				{
+					id: "79AAA74770ADA29F"
+					type: "item"
+					item: "botania:gray_mystical_flower"
+				}
+				{
+					id: "34DE5C003862B4B4"
+					type: "item"
+					item: "botania:pink_mystical_flower"
+				}
+				{
+					id: "03527BFDDC600988"
+					type: "item"
+					item: "botania:lime_mystical_flower"
+				}
+				{
+					id: "37E8C13FC3B11D43"
+					type: "item"
+					item: "botania:magenta_mystical_flower"
+				}
+				{
+					id: "2404C48BA2058BF3"
+					type: "item"
+					item: "botania:light_blue_mystical_flower"
+				}
+				{
+					id: "5E3A06A2F1E65812"
+					type: "item"
+					item: "botania:yellow_mystical_flower"
+				}
+				{
+					id: "433A211375D3E1F6"
+					type: "item"
+					item: "botania:orange_mystical_flower"
+				}
+				{
+					id: "0AB243DE5FB9F11F"
+					type: "item"
+					item: "botania:white_mystical_flower"
+				}
+				{
+					id: "2DE5B1A4CAFF13A6"
+					type: "item"
+					item: "botania:black_mystical_flower"
+				}
+				{
+					id: "1C746A569FBB8479"
+					type: "item"
+					item: "botania:green_mystical_flower"
+				}
+				{
+					id: "4A13B8DAC53847F5"
+					type: "item"
+					item: "botania:red_mystical_flower"
+				}
+				{
+					id: "613739A69528635C"
+					type: "item"
+					item: "botania:blue_mystical_flower"
+				}
+				{
+					id: "448555C129552582"
+					type: "item"
+					item: "botania:brown_mystical_flower"
+				}
+				{
+					id: "6E47D2F64705E837"
+					type: "item"
+					item: "botania:purple_mystical_flower"
+				}
+				{
+					id: "35FDDC93F1CFE50B"
+					type: "item"
+					item: "botania:cyan_mystical_flower"
+				}
+			]
+			rewards: [{
+				id: "6A169071BD871290"
+				type: "item"
+				item: "botania:fertilizer"
+				count: 16
+			}]
+		}
+		{
+			title: "Petalas mágicas."
+			x: 9.5d
+			y: 5.0d
+			subtitle: "Iniciando com a magia da natureza!"
+			dependencies: ["70152FF2A277E846"]
+			id: "103167F7D4206B91"
+			tasks: [
+				{
+					id: "0F00FBAB934AAB21"
+					type: "item"
+					item: "botania:white_petal"
+				}
+				{
+					id: "139DE6B5E7B6B9D6"
+					type: "item"
+					item: "botania:red_petal"
+				}
+				{
+					id: "35DE64BEAED1C3B5"
+					type: "item"
+					item: "botania:orange_petal"
+				}
+				{
+					id: "1FCB7CC824451A18"
+					type: "item"
+					item: "botania:magenta_petal"
+				}
+				{
+					id: "1B93D4E12B45E287"
+					type: "item"
+					item: "botania:light_blue_petal"
+				}
+				{
+					id: "4BFDFEFD75E29C8C"
+					type: "item"
+					item: "botania:yellow_petal"
+				}
+				{
+					id: "0518AD6E9F05C061"
+					type: "item"
+					item: "botania:pink_petal"
+				}
+				{
+					id: "26A96FDF4BFE1219"
+					type: "item"
+					item: "botania:gray_petal"
+				}
+				{
+					id: "5531995BDFB075B3"
+					type: "item"
+					item: "botania:light_gray_petal"
+				}
+				{
+					id: "4D906CB9A78561DA"
+					type: "item"
+					item: "botania:purple_petal"
+				}
+				{
+					id: "406DCDAAD582673E"
+					type: "item"
+					item: "botania:blue_petal"
+				}
+				{
+					id: "32E8FE5D49A2D085"
+					type: "item"
+					item: "botania:brown_petal"
+				}
+				{
+					id: "1D4A7DE66FA7711A"
+					type: "item"
+					item: "botania:green_petal"
+				}
+				{
+					id: "2561403DCC39CC79"
+					type: "item"
+					item: "botania:lime_petal"
+				}
+				{
+					id: "2AFC9E9DAC6D6413"
+					type: "item"
+					item: "botania:cyan_petal"
+				}
+				{
+					id: "7384169FD5F6C364"
+					type: "item"
+					item: "botania:black_petal"
+				}
+			]
+		}
 	]
 }
