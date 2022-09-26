@@ -9,11 +9,12 @@ console.info('Hello, World! (You will see this line every time server resources 
 
 onEvent('recipes', event => {
 	// Change recipes here
+    event.remove({output: "botania:fertilizer"})
     event.custom(
         {
             "type": "tfc:quern",
             "ingredient": {
-                "item": "#minecraft:saplinga"
+                "tag": "minecraft:saplings"
             },
             "result": {
                 "item": "botania:fertilizer",
